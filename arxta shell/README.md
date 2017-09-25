@@ -1,0 +1,2 @@
+# ARXTA
+主要利用bootstrap、jQuery和iconfont,用bootstrap的栅格系统布局，利用插件Carousel实现轮播滑动，利用jquery的animate()方法实现下部图片的切换。
