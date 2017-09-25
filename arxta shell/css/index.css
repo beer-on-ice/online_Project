@@ -1,0 +1,179 @@
+body {
+	background: #efedee;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clearBoth {
+	clear: both;
+}
+/*logo*/
+.logo-box {
+    float: left;
+	/*width: 150px;*/
+	margin-right: 20px;
+	padding: 14px 0 15px 0;
+}
+
+.logo-box img {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo-box{
+    	width: 150px;
+    }
+}
+/*轮播图*/
+#imgId .item{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+@media (max-width:768px ) {
+	#imgId .item{
+		height: 200px;
+	}
+}
+/*导航栏*/
+#navbar {
+    border-bottom: 1px solid #555;
+}
+
+.navbar-default {
+    background-color: #3ad9ff;
+    border-color: #3ad9ff;
+}
+
+.navbar li a {
+	font-weight: normal;
+}
+
+.nav-search-box {
+	margin-top: 10px;
+}
+
+.head-img {
+	float: left;
+    /*鼠标移出变成手指*/
+	cursor: pointer;
+}
+
+.head-img img {
+	width: 30px;
+	border-radius:50% ;
+	margin-top: 10px;
+}
+
+.register {
+	float: left;
+	font-size: 16px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+/*购物车图标*/
+.cart-badge{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #f4f4f4;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -6px;
+	right: -10px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+}
+
+/*页脚*/
+.footer {
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	background-color: #07172c;
+	padding: 30px 0 20px 0;
+	box-sizing: content-box;
+}
+
+.footer-logo img {
+	width: 100%;
+}
+
+#footer-li a {
+	color: #f4f4f4;
+}
+
+.footer-active a {
+	font-weight: bold;
+}
+
+.footer-search-box {
+	margin-top: 20px;
+	position: relative;
+}
+
+.search-icon {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+.rele-text{
+	font-size: 17px;
+	color:#F4F4F4 ;
+	line-height: 40px;
+}
+
+.rele-icon {
+	float: left;
+	margin: 0 5px;
+}
+
+.rele-icon img {
+	width: 40px;
+}
+
+.rele-box {
+	margin-top: 20px;
+}
+
+.footer-bottom {
+	margin-top: 60px;
+	color: #3ad9ff;
+}
+
+@media (max-width:768px ) {
+	.footer {
+		height: 300px;
+	}
+	.footer-logo {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.footer-logo img {
+		width: 100%;
+	}
+	.footer .navbar-nav > li {
+		float: left;
+	}
+	.rele-text {
+		font-size: 14px;
+	}
+	.rele-icon img {
+		width: 30px;
+	}
+	.footer-bottom {
+		margin-top: 10px;
+	}
+}
+
+a {
+	color: inherit;
+}
