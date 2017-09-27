@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="MobileOptimized" content="320">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title></title>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="iconfont/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body class="body_background_color">
+    <!-- navbar-fixed-top s -->
+    <div class="navbar-fixed-top">
+        <a href="JavaScript:history.go(-1)" class="L"></a>
+        <center>灵韵国际</center>
+        <a href="javascript:;" class="R"><i class="ico ico-jiahao1"></i></a>
+    </div>
+    <div class="MT"></div>
+    <!-- navbar-fixed-top e -->
+
+    <div class="scroll">
+        <div>
+        <!-- search_t s     -->
+        <div class="search_t">
+            <form action="">
+                <button type="submit" class="submit"><i class="ico ico-sousuo"></i></button>
+                <input type="text" class="ipt1" placeholder="搜索">
+            </form>
+        </div>
+        <!-- search_t e -->
+        <!-- fh_list s -->
+        <div class="fh_list">
+            <ul>
+                <li>
+                    <span class="orderselspan nocheck checked"></span>
+                    <a class="deliverya" href="javascript:;">
+                        <h3>小茗同学  18013521256@163.com</h3>
+                        <p class="p1">
+                            <span class="fl">江苏省  苏州  工业园区
+                            </span>
+                            <span class="fr">已有货件：<i>2</i>
+                            </span>
+                        </p>
+                        <p class="p2">仁爱路苏州南大研究生院5A 504
+                        </p>
+                        <i class="ico ico-you top50"></i>
+                    </a>
+                </li>
+                <li>
+                    <span class="orderselspan nocheck"></span>
+                    <a class="deliverya" href="javascript:;">
+                        <h3>小茗同学  18013521256@163.com</h3>
+                        <p class="p1">
+                            <span class="fl">江苏省  苏州  工业园区
+                            </span>
+                            <span class="fr">已有货件：<i>2</i>
+                            </span>
+                        </p>
+                        <p class="p2">仁爱路苏州南大研究生院5A 504
+                        </p>
+                        <i class="ico ico-you top50"></i>
+                    </a>
+                </li>
+                <li>
+                    <span class="orderselspan nocheck"></span>
+                    <a class="deliverya" href="javascript:;">
+                        <h3>小茗同学  18013521256@163.com</h3>
+                        <p class="p1">
+                            <span class="fl">江苏省  苏州  工业园区</span>
+                            <span class="fr">已有货件：<i>2</i>
+                            </span>
+                        </p>
+                        <p class="p2">仁爱路苏州南大研究生院5A 504
+                        </p>
+                        <i class="ico ico-you top50"></i>
+                    </a>
+                </li>
+            </ul>
+            <a class="button calc topmargin30">确定</a>
+        </div>
+        <!-- fh_list e -->
+        </div>
+    </div>
+
+    <!-- navbar-fixed-bottom s -->
+    <div class="MB"></div>
+    <div class="navbar-fixed-bottom">
+        <ul>
+            <li><a href="Index.html"><i></i>首页</a></li>
+            <li><a href="Tallying.html"><i></i>理货</a></li>
+            <li><a href="Delivery.html" class="active"><i></i>发货</a></li>
+            <li><a href="Mine.html"><i></i>我的</a></li>
+        </ul>
+    </div>
+    <!-- navbar-fixed-bottom e -->
+
+</body>
+<script src="js/m.touch.js" charset="utf-8"></script>
+<script type="text/javascript">
+// 事件委托
+    $("body").delegate(".fh_list li", "click", function () {
+        if ($(this.children[0]).hasClass("checked")) {
+            $(this.children[0]).removeClass("checked");
+        } else {
+            $(this.children[0]).addClass("checked");
+        }
+    })
+
+    var scroll = document.querySelector('.scroll');
+    mScroll({
+        wrap: scroll,
+        showBar: false,
+        dir: "y",
+        over: "backOut"
+    })
+</script>
+</html>

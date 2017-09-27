@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- telephone=no就禁止了把数字转化为拨号链接！email=no禁止作为邮箱地址！adress=no禁止跳转至地图！ -->
+    <meta content="telephone=no, address=no" name="format-detection">
+     <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏。 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title></title>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="iconfont/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body class="body_background_color">
+    <!-- navbar-fixed-top s -->
+    <div class="navbar-fixed-top">
+        <a href="javascript:;" class="L">
+            <img src="images/200x200.jpg" class="us_img" alt="">
+        </a>
+        <center>灵韵国际</center>
+        <a href="javascript:;" class="R">
+            <i class="ico ico-others ico-lg"></i>
+        </a>
+    </div>
+    <div class="MT"></div>
+    <!-- navbar-fixed-top e -->
+
+    <div class="scroll">
+        <div>
+            <!-- banner_box s -->
+            <div id="banner_box" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/slide.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/slide.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/slide.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <link rel="stylesheet" href="css/swiper.min.css">
+            <script type="text/javascript" src="js/swiper.min.js"></script>
+            <script type="text/javascript">
+                var mySwiper = new Swiper ('.swiper-container', {
+                    loop: true,
+                    autoplay: 2000,
+                    speed: 500
+                })
+            </script>
+            <!-- banner_box e -->
+            <!-- Hot_news s -->
+            <div class="Hot_news">
+                <p class="title">灵韵新闻：</p>
+                <div class="txtScroll-top">
+                    <div class="bd">
+                        <ul class="infoList">
+                            <li><a href="javascript:;"><i class="hot">Hot</i>灵韵国际在苏州举行开幕仪式</a></li>
+                            <li><a href="javascript:;"><i class="hot">Hot</i>习近平谈军队规模结构和力量编成改革</a></li>
+                            <li><a href="javascript:;"><i class="hot">Hot</i>中国实现首次产出量子非局域性曾是不解之谜</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+                <script type="text/javascript">
+                    //新闻插件
+                    jQuery(".txtScroll-top").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true});
+                </script>
+                <a href="javascript:;" class="more">更多</a>
+            </div>
+            <!-- Hot_news e -->
+            <!-- ind_menu s -->
+            <div class="ind_menu">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/ind_ico_01.png" alt="">
+                            <span>产品介绍</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/ind_ico_02.png" alt="">
+                            <span>物品认领</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/ind_ico_03.png" alt="">
+                            <span>客服咨询</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="images/ind_ico_04.png" alt="">
+                            <span>操作指南</span>
+                        </a>
+                    </li>
+                    <li class="middle">
+                        <a href="javascript:;">
+                            <i class="ico ico-sousuo"></i>
+                            <span>快件查询</span>
+                        </a>
+                    </li>
+                </ul>
+                <ol>
+                    <li>
+                        <a href="javascript:;">
+                            <span>
+                                <i class="ico ico-xiangzi1"></i>我的货件
+                            </span>
+                            <i class="ico ico-you fr"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span>
+                                <i class="ico ico-iconchangyongdizhi ico-lg"></i>获取运转地址
+                            </span>
+                            <i class="ico ico-you fr"></i>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <!-- ind_menu e -->
+        </div>
+    </div>
+
+    <!-- navbar-fixed-bottom s -->
+    <div class="MB"></div>
+    <div class="navbar-fixed-bottom">
+        <ul>
+            <li><a href="Index.html" class="active"><i></i>首页</a></li>
+            <li><a href="Tallying.html"><i></i>理货</a></li>
+            <li><a href="Delivery.html"><i></i>发货</a></li>
+            <li><a href="Mine.html"><i></i>我的</a></li>
+        </ul>
+    </div>
+    <!-- navbar-fixed-bottom e -->
+</body>
+<script src="js/m.touch.js" charset="utf-8"></script>
+<script type="text/javascript">
+var scroll = document.querySelector('.scroll');
+mScroll({
+    wrap: scroll,
+    showBar: false,
+    dir: "y",
+    over: "backOut"
+})
+
+</script>
+</html>
