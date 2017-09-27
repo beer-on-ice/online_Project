@@ -900,3 +900,234 @@ input.submit:active {
 	border-radius: 100%;
 }
 /* user_list_1 e */
+
+/* ---------------  index_Company   --------------------- */
+/*KD_list s*/
+.KD_list {
+margin-top: 12px;
+margin-bottom: 12px;
+background-color: #fff;
+box-shadow: 0px 0px 3px 0px rgba(187, 188, 188, 0.5);
+}
+
+.KD_list ul li {
+position: relative;
+overflow: hidden;
+}
+
+.KD_list ul li:after {
+display: block;
+content: ".";
+height: 1px;
+width: 100%;
+clear: both;
+font-size: 0;
+line-height: 0;
+background-color: #ddd;
+position: absolute;
+left: 10px;
+bottom: 0;
+}
+
+.KD_list ul li:last-child:after {
+display: none;
+}
+
+.KD_list ul li a {
+display: block;
+overflow: hidden;
+padding: 10px;
+padding-right: 35px;
+}
+
+.KD_list ul li .Limg {
+width: 50px;
+height: 50px;
+display: block;
+border-radius: 5px;
+float: left;
+margin-right: 15px;
+}
+
+.KD_list ul li .rtxt {
+overflow: hidden;
+height: auto;
+}
+
+.KD_list ul li .rtxt h3 {
+font-size: 1rem;
+font-weight: normal;
+white-space: nowrap;
+-ms-text-overflow: ellipsis;
+text-overflow: ellipsis;
+overflow: hidden;
+margin-top: 1px;
+margin-bottom: 6px;
+}
+
+.KD_list ul li .rtxt p {
+font-size: 0.8rem;
+overflow: hidden;
+color: #7e7e7e;
+line-height: 1.6em;
+}
+
+.KD_list ul li .ico-you {
+position: absolute;
+right: 10px;
+top: 50%;
+margin-top: -9px;
+color: #b4b4b4;
+font-size: 1rem;
+}
+/*KD_list e*/
+/* ---------------  index_Company   --------------------- */
+
+/* -------------- index_Mygoods -------------------*/
+/*state_down s */
+.state_down {
+	background-color: #fff;
+	box-shadow: 0px 0px 3px 0px rgba(187, 188, 188, 0.5);
+	margin-bottom: 12px;
+	padding: 0 10px;
+	font-size: 1rem;
+	line-height: 40px;
+	position: relative;
+}
+
+.state_down:after {
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+
+.state_down .drop_down {
+	position: absolute;
+	right: 4px;
+	top: 35px;
+	background-color: #fff;
+	z-index: 200;
+	border-radius: 5px;
+	padding: 5px 0px;
+	border: 1px solid #ddd;
+	display: none;
+}
+
+.state_down .drop_down li a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.9rem;
+	padding: 0 15px;
+}
+
+.state_down .drop_down:after {
+	display: block;
+	content: "";
+	height: 0;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #ddd;
+	position: absolute;
+	right: 5px;
+	top: -8px;
+	z-index: 100;
+}
+
+.state_down .drop_down:before {
+	display: block;
+	content: "";
+	height: 0;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #fff;
+	position: absolute;
+	right: 5px;
+	top: -7px;
+	z-index: 200;
+}
+/*state_down e */
+
+/* fh_list_2 s */
+.fh_list_2 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.fh_list_2 ul li {
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0px 0px 3px 0px rgba(187, 188, 188, 0.5);
+	margin-bottom: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-right: 4px solid #1e82d2;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.fh_list_2 ul li a {
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.fh_list_2 ul li h3 {
+	font-size: 1rem;
+	font-weight: normal;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+
+.fh_list_2 ul li  .p1 {
+	font-size: 0.8rem;
+	overflow: hidden;
+	color: #7e7e7e;
+	margin-bottom: 7px;
+}
+
+.fh_list_2 ul li  .p1 .fr {
+	color: #eb3d3d;
+}
+
+.fh_list_2 ul li  .p2 {
+	font-size: 0.8rem;
+	overflow: hidden;
+	color: #7e7e7e;
+	overflow: hidden;
+}
+
+.fh_list_2 ul li  .p1 .fl {
+	width: 60%;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.fh_list_2 ul li  .p2 .fl {
+	width: 65%;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+/* fh_list_2 e */

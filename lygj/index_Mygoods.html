@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="MobileOptimized" content="320">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title></title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="iconfont/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body class="body_background_color">
+    <!-- navbar-fixed-top s -->
+    <div class="navbar-fixed-top">
+        <a href="JavaScript:history.go(-1)" class="L"><i class="ico ico-zu"></i></a>
+        <center>灵韵国际</center>
+        <a href="###" class="R"></a>
+    </div>
+    <div class="MT"></div>
+    <!-- navbar-fixed-top e -->
+    <!-- state_down  s -->
+    <div class="state_down">
+        <span class="fl">订单状态： <i class="stxt">已接单</i></span>
+        <span class="fr"><i class="button-drop-down ico ico-xiangxia2"></i></span>
+        <ul class="drop_down">
+            <li><a href="#">已接单</a></li>
+            <li><a href="#">未接单</a></li>
+        </ul>
+    </div>
+    <div class="fh_list_2">
+        <ul>
+            <li>
+                <a href="###">
+                    <h3>小茗同学  18013521256@163.com</h3>
+                    <p class="p1"><span class="fl">江苏省  苏州  工业园区</span><span class="fr">等待确认快递方式</span></p>
+                    <p class="p2"><span class="fl">仁爱路苏州南大研究生院5A 504</span><span class="fr">已有货件：2</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <h3>小茗同学  18013521256@163.com</h3>
+                    <p class="p1"><span class="fl">江苏省  苏州  工业园区</span><span class="fr">等待确认快递方式</span></p>
+                    <p class="p2"><span class="fl">仁爱路苏州南大研究生院5A 504</span><span class="fr">已有货件：2</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <h3>小茗同学  18013521256@163.com</h3>
+                    <p class="p1"><span class="fl">江苏省  苏州  工业园区</span><span class="fr">等待确认快递方式</span></p>
+                    <p class="p2"><span class="fl">仁爱路苏州南大研究生院5A 504</span><span class="fr">已有货件：2</span></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- state_down e -->
+    <script type="text/javascript">
+        $(function () {
+            //右侧下拉
+            $('.button-drop-down').click(function () {
+                if ($(this).hasClass('ico-xiangxia2')) {
+                    $(this).removeClass('ico-xiangxia2').addClass('ico-xiangshang2');
+                    $(this).parents('.state_down').find('.drop_down').show();
+                } else {
+                    $(this).removeClass('ico-xiangshang2').addClass('ico-xiangxia2');
+                    $(this).parents('.state_down').find('.drop_down').hide();
+                };
+            });
+            $('.drop_down a').click(function () {
+                $('.stxt').text($(this).text());
+                $('.state_down').find('.drop_down').hide();
+                $('.button-drop-down').removeClass('ico-xiangshang2').addClass('ico-xiangxia2');
+            });
+
+
+        });
+    </script>
+</body>
+</html>

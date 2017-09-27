@@ -1,3 +1,3 @@
 # 灵韵国际
 
-主要利用移动端的触摸滑动插件swiper,应用在连版图片广告轮播。superslide是基于jQuery的插件,用在广告字上行切换。iconfont矢量图标库，以及封装的mScroll函数实现了屏幕上下的滚动。制作了灵韵国际移动端。
+主要利用移动端的触摸滑动插件swiper,应用在连版图片广告轮播。superslide是基于jQuery的插件,用在广告字上行切换。iconfont矢量图标库，以及封装的mScroll函数实现了屏幕上下的滚动。制作了灵韵国际移动端App。
