@@ -1,0 +1,726 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>详情</title>
+
+		<meta name="description" content="Common form elements and layouts" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="../../assets/css/myself.css" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../components/font-awesome/css/font-awesome.css" />
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="../../components/_mod/jquery-ui.custom/jquery-ui.custom.css" />
+		<link rel="stylesheet" href="../../components/chosen/chosen.css" />
+		<link rel="stylesheet" href="../../components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" />
+		<link rel="stylesheet" href="../../components/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+		<link rel="stylesheet" href="../../components/bootstrap-daterangepicker/daterangepicker.css" />
+		<link rel="stylesheet" href="../../components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css" />
+		<link rel="stylesheet" href="../../components/mjolnic-bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css" />
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="../../assets/css/ace-fonts.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="../../assets/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="../assets/css/ace-part2.css" class="ace-main-stylesheet" />
+		<![endif]-->
+		<link rel="stylesheet" href="../../assets/css/ace-skins.css" />
+		<link rel="stylesheet" href="../../assets/css/ace-rtl.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="../assets/css/ace-ie.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+		<script src="../../assets/js/ace-extra.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+		<script src="../components/respond/dest/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<!--common.js-->
+	<script src="../../assets/js/common.js"></script>
+	<body class="no-skin">
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default          ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+				<!-- #section:basics/sidebar.mobile.toggle -->
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- /section:basics/sidebar.mobile.toggle -->
+				<div class="navbar-header pull-left">
+					<!-- #section:basics/navbar.layout.brand -->
+					<a href="#" class="navbar-brand">
+						<small>
+							<i class="fa fa-leaf"></i>
+							鹰轮集团智能CRM系统
+						</small>
+					</a>
+
+					<!-- /section:basics/navbar.layout.brand -->
+
+					<!-- #section:basics/navbar.toggle -->
+
+					<!-- /section:basics/navbar.toggle -->
+				</div>
+
+				<!-- #section:basics/navbar.dropdown -->
+				<!--<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="grey dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-tasks"></i>
+								<span class="badge badge-grey">4</span>
+							</a>
+
+						</li>
+
+						<li class="purple dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
+								<span class="badge badge-important">8</span>
+							</a>
+
+						</li>
+
+						<li class="green dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
+								<span class="badge badge-success">5</span>
+							</a>
+
+						</li>-->
+
+						<!-- #section:basics/navbar.user_menu -->
+						<!--<li class="light-blue dropdown-modal">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="../../assets/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									Jason
+								</span>
+
+							</a>
+
+						</li>
+-->
+						<!-- /section:basics/navbar.user_menu -->
+					<!--</ul>
+				</div>-->
+
+				<!-- /section:basics/navbar.dropdown -->
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container ace-save-state" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.loadState('main-container')}catch(e){}
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar                  responsive                    ace-save-state">
+				<script type="text/javascript">
+					try{ace.settings.loadState('sidebar')}catch(e){}
+				</script>
+
+				
+
+				<ul class="nav nav-list">
+					<li class="active">
+						<a>
+							<i class="menu-icon fa fa-car"></i>
+							<span class="menu-text"> CRM </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								客户管理
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu" style="display: block;">
+							<li class="">
+								<a href="commonSea.html" >
+									<i class="menu-icon fa fa-caret-right"></i>
+									公海客户管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="potential.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									潜在客户设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="protentialMan.html" class="add_state">
+									<i class="menu-icon fa fa-caret-right"></i>
+									潜在客户管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="success.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									成交客户管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+						
+					</li>
+
+					<li class="">
+						<a href="../order/ordermain.html" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text">订单管理</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="../order/orderDetail.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									查看详情
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="../order/orderAudit.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									订单审核
+								</a>
+							</li>
+							
+							<li class="">
+								<a href="../order/payment.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									回款审核
+								</a>
+							</li>
+							<li class="">
+								<a href="../order/addenda.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									补充材料审核
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text">售后管理</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="../afterSale/afterCustomer.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									售后客户管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="../afterSale/firstPt.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									首保到期客户
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="../afterSale/protectOver.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									保险到期客户
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+						</ul>
+					</li>
+
+					<li class="active">
+						<a>
+							<i class="menu-icon fa fa-bar-chart"></i>
+							<span class="menu-text"> 统计 </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../statistics/carCost.html">
+							<i class="menu-icon fa fa-arrow-circle-o-up"></i>
+							<span class="menu-text">汽车成本添加</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list-alt"></i>
+							<span class="menu-text">销售统计</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="">
+								<a href="../statistics/groupSta.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									集团统计
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="../statistics/shopSta.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									销售店排名
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="../statistics/clerkSta.html">
+									<i class="menu-icon fa fa-caret-right"></i>
+									销售员排名
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="../statistics/perforSta.html">
+							<i class="menu-icon fa fa-file-text"></i>
+							<span class="menu-text">员工绩效统计</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../manage/overcost.html">
+							<i class="menu-icon fa fa-th-large"></i>
+							<span class="menu-text">公司整体成本管理</span>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="active">
+						<a>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 其他 </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="../other/workRepoter.html">
+							<i class="menu-icon fa fa-picture-o"></i>
+							<span class="menu-text">工作报告管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li class="">
+						<a href="../other/mailManage.html">
+							<i class="menu-icon fa fa-calendar"></i>
+							<span class="menu-text">CRM通讯录管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../other/carInfo.html">
+							<i class="menu-icon fa fa-tags"></i>
+							<span class="menu-text">汽车信息管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../other/messManage.html">
+							<i class="menu-icon fa fa-comments"></i>
+							<span class="menu-text">消息管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="active">
+						<a>
+							<i class="menu-icon fa fa-credit-card"></i>
+							<span class="menu-text"> 系统 </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../System/userManage.html">
+							<i class="menu-icon fa fa-user-plus"></i>
+							<span class="menu-text">用户管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../System/roleManage.html">
+							<i class="menu-icon fa fa-users"></i>
+							<span class="menu-text">角色管理</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../System/password.html">
+							<i class="menu-icon fa fa-exchange"></i>
+							<span class="menu-text">密码修改</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					
+					<li class="">
+						<a href="../System/opRecord.html">
+							<i class="menu-icon fa fa-calendar-minus-o"></i>
+							<span class="menu-text">操作记录</span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+				</ul><!-- /.nav-list -->
+
+				<!-- #section:basics/sidebar.layout.minimize -->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+
+				<!-- /section:basics/sidebar.layout.minimize -->
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<!-- #section:basics/content.breadcrumbs -->
+					<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a>CRM</a>
+							</li>
+
+							<li>
+								<a>客户管理</a>
+							</li>
+							<li class="active">潜在客户管理</li>
+						</ul><!-- /.breadcrumb -->
+
+						
+						<!-- /section:basics/content.searchbox -->
+					</div>
+
+					<!-- /section:basics/content.breadcrumbs -->
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<h3 class="header smaller lighter blue">潜在客户管理-详情</h3>
+								<form class="form-horizontal">
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly">客户姓名：</label>
+
+										<div class="col-sm-9">
+											<input type="text" class="col-xs-10 col-sm-5" value="张三" disabled="true"/>
+											<span class="help-inline col-xs-12 col-sm-7">
+												<label class="middle sex_checkbox">
+													<input class="ace" type="checkbox" checked="true" disabled="true"/>
+													<span class="lbl">男</span>
+												</label>
+												<label class="middle sex_checkbox">
+													<input class="ace" type="checkbox" disabled="true"/>
+													<span class="lbl">女</span>
+												</label>
+											</span>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">客户手机：</label>
+										<div class="col-sm-9">
+											<input type="text" value="11111111111" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">客户来源：</label>
+										<div class="col-sm-9">
+											<input type="text"  value="户外广告" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">客户级别：</label>
+										<div class="col-sm-9">
+											<input type="text"  value="重要" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right">所属分店：</label>
+										<div class="col-sm-9">
+											<input type="text" value="江苏" disabled="true"class="col-xs-10 col-sm-2"/>
+											<input type="text" value="南京" disabled="true"class="col-xs-10 col-sm-2"/>
+											<input type="text" value="COCO分店" disabled="true"class="col-xs-10 col-sm-4"/>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">所属销售：</label>
+										<div class="col-sm-9">
+											<input type="text"  value="黄伟" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">备注：</label>
+										<div class="col-sm-9">
+											<textarea class="col-xs-10 col-sm-9" disabled="true" style="background: #eee;height: 150px;"/>hfnskjnfwndkjw</textarea>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">创建日期：</label>
+										<div class="col-sm-9">
+											<input type="text" value="11111111111" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">最后跟进日期：</label>
+										<div class="col-sm-9">
+											<input type="text" value="11111111111" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">最后跟进方式：</label>
+										<div class="col-sm-9">
+											<input type="text" value="电话" class="col-xs-10 col-sm-5" disabled="true" />
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">最后跟进记录：</label>
+										<div class="col-sm-9">
+											<textarea class="col-xs-10 col-sm-9" disabled="true" style="background: #eee;height: 150px;"/>hfnskjnfwndkjw</textarea>
+										</div>
+									</div>
+									
+									<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="button" id="btn_back">
+												<i class="ace-icon fa fa-undo bigger-110"></i>
+												返回
+											</button>
+										</div>
+									
+								</form>
+							</div>
+						</div>
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<div class="footer">
+				<div class="footer-inner">
+					<!-- #section:basics/footer -->
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">Ace</span>
+							Application &copy; 2013-2014
+						</span>
+
+						&nbsp; &nbsp;
+						<span class="action-buttons">
+							<a href="#">
+								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+							</a>
+						</span>
+					</div>
+
+					<!-- /section:basics/footer -->
+				</div>
+			</div>
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="../../components/jquery/dist/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="../components/jquery.1x/dist/jquery.js"></script>
+<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="../../components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!--[if lte IE 8]>
+		  <script src="../components/ExplorerCanvas/excanvas.js"></script>
+		<![endif]-->
+		<script src="../../components/_mod/jquery-ui.custom/jquery-ui.custom.js"></script>
+		<script src="../../components/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
+		<script src="../../components/chosen/chosen.jquery.js"></script>
+		<script src="../../components/fuelux/js/spinbox.js"></script>
+		<script src="../../components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+		<script src="../../components/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+		<script src="../../components/moment/moment.js"></script>
+		<script src="../../components/bootstrap-daterangepicker/daterangepicker.js"></script>
+		<script src="../../components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js"></script>
+		<script src="../../components/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
+		<script src="../../components/jquery-knob/js/jquery.knob.js"></script>
+		<script src="../../components/autosize/dist/autosize.js"></script>
+		<script src="../../components/jquery-inputlimiter/jquery.inputlimiter.js"></script>
+		<script src="../../components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
+		<script src="../../components/_mod/bootstrap-tag/bootstrap-tag.js"></script>
+
+		<!-- ace scripts -->
+		<script src="../../assets/js/src/elements.scroller.js"></script>
+		<script src="../../assets/js/src/elements.colorpicker.js"></script>
+		<script src="../../assets/js/src/elements.fileinput.js"></script>
+		<script src="../../assets/js/src/elements.typeahead.js"></script>
+		<script src="../../assets/js/src/elements.wysiwyg.js"></script>
+		<script src="../../assets/js/src/elements.spinner.js"></script>
+		<script src="../../assets/js/src/elements.treeview.js"></script>
+		<script src="../../assets/js/src/elements.wizard.js"></script>
+		<script src="../../assets/js/src/elements.aside.js"></script>
+		<script src="../../assets/js/src/ace.js"></script>
+		<script src="../../assets/js/src/ace.basics.js"></script>
+		<script src="../../assets/js/src/ace.scrolltop.js"></script>
+		<script src="../../assets/js/src/ace.ajax-content.js"></script>
+		<script src="../../assets/js/src/ace.touch-drag.js"></script>
+		<script src="../../assets/js/src/ace.sidebar.js"></script>
+		<script src="../../assets/js/src/ace.sidebar-scroll-1.js"></script>
+		<script src="../../assets/js/src/ace.submenu-hover.js"></script>
+		<script src="../../assets/js/src/ace.widget-box.js"></script>
+		<script src="../../assets/js/src/ace.settings.js"></script>
+		<script src="../../assets/js/src/ace.settings-rtl.js"></script>
+		<script src="../../assets/js/src/ace.settings-skin.js"></script>
+		<script src="../../assets/js/src/ace.widget-on-reload.js"></script>
+		<script src="../../assets/js/src/ace.searchbox-autocomplete.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			$(function(){
+				var page_index=GetRequest("page");
+				//获取此详细页面的内容
+//				$.ajax({
+//					type:"post",
+//					url:"",
+//					dataType:"json",
+//					success:function(data){
+//						//填写数据
+//					}
+//				});
+				//点击返回按钮返回当前page页面 
+				$("#btn_back").on("click",function(){
+					window.location.href="protentialMan.html?page="+page_index+"";
+				})
+			})
+		</script>
+
+		<!-- the following scripts are used in demo only for onpage help and you don't need them -->
+		<link rel="stylesheet" href="../assets/css/ace.onpage-help.css" />
+		<link rel="stylesheet" href="../docs/assets/js/themes/sunburst.css" />
+
+		<script type="text/javascript"> ace.vars['base'] = '..'; </script>
+		<script src="../../assets/js/src/elements.onpage-help.js"></script>
+		<script src="../../assets/js/src/ace.onpage-help.js"></script>
+		<script src="../../docs/assets/js/rainbow.js"></script>
+		<script src="../../docs/assets/js/language/generic.js"></script>
+		<script src="../../docs/assets/js/language/html.js"></script>
+		<script src="../../docs/assets/js/language/css.js"></script>
+		<script src="../../docs/assets/js/language/javascript.js"></script>
+	</body>
+</html>
+
