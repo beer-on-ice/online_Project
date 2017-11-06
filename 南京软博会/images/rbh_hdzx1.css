@@ -1,0 +1,159 @@
+.mian_hdzx{
+	width: 1200px;
+	margin: 120px auto 0;
+	overflow: hidden;
+}
+/*主题馆*/
+.hdzx{
+	overflow: hidden;
+}
+.hdzx_l{
+	width: 50%;
+	float: left;
+}
+.hdzx_l h3{
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-bottom: 9px;
+	background: url(rbh_zpxq03.jpg) no-repeat left 3px;
+}
+.hdzx_l span{
+	color: #b2b0c1;
+}
+.hdzx_r{
+	width: 50%;
+	float: left;
+	margin-top: 12px;
+	overflow: hidden;
+	position: relative;
+}
+.hdzx_r input{
+	float: right;
+	height: 39px;
+	width: 393px;
+	line-height: 39px;
+	color: #c2c2c2;
+	font-size: 17px;
+	padding-left: 12px;
+	border: 1px solid #0bccd9;
+	background: #4d53d3 url(rbh_rczp01.png) no-repeat 350px center;
+}
+.hdzx_r a{
+	display: block;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	right: 16px;
+	top: 7px;
+}
+.hdzx_list{
+	height: 465px;
+	width: 1200px;
+	padding: 27px;
+	background: #dadef6;
+	margin-top: 20px;
+	position: relative;
+}
+.part1{
+	height: 105px;
+	width: 1146px;
+	border-bottom: 1px solid #0bccd9;
+	margin-top: 30px;
+}
+.part1 a{
+	float: left;
+}
+.part1 img{
+	height: 90px;
+	width: 186px;
+	float: left;
+}
+.part1 dl{
+	overflow: hidden;
+	height: 100%;
+	width: 942px;
+	float: left;
+	margin-left: 18px;
+}
+.part1 dl dt{
+	overflow: hidden;
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+.part1 dl dt a{
+	float: left;
+	color: #6b1ccd;
+	padding-bottom: 8px;
+	overflow: hidden;
+}
+.part1 dl dt span{
+	font-size: 15px;
+	color: #6b1ccd;
+	float: right;
+}
+.part1 dl dd{
+	overflow: hidden;
+}
+.part1 dl dd{
+	font-size: 17px;
+	color: #666666;
+}
+/*分页*/
+.fenye{
+	position: absolute;
+	right: 27px;
+	bottom: 27px;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	color: #333333;
+}
+.fenye ul li{
+	float: left;
+	overflow: hidden;
+	font-size: 13px;
+	cursor: pointer;
+	height: 21px;
+	line-height: 21px;
+	margin-right: 10px;
+}
+#pageSize{
+	min-width: 39px;
+	background: #FFFFFF;
+	border: 0;
+}
+#firstPage{
+	width: 7px;
+	background: url(rbh_grzx05.png) no-repeat center;
+}
+#prevPage{
+	width: 5px;
+	background: url(rbh_grzx06.png) no-repeat center;
+}
+#nowPage{
+	overflow: hidden;
+	margin-right: 5px;
+}
+#nowPage span{
+	display: inline-block;
+	min-width: 39px;
+	padding: 0 4px;
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0 5px;
+}
+#PagesLen{
+	overflow: hidden;
+	padding-left: 6px;
+	background: url(rbh_grzx04.jpg) no-repeat left center;
+}
+#nextPage{
+	width: 5px;
+	background: url(rbh_grzx07_1.png) no-repeat center;
+}
+#lastPage{
+	width: 7px;
+	background: url(rbh_grzx08.png) no-repeat center;
+}

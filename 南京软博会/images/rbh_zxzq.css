@@ -1,0 +1,151 @@
+.mian_grzx{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.local{
+	height: 120px;
+	width: 100%;
+	color: #B2b0c1;
+	font-size: 15px;
+	padding-top: 40px;
+	background: url(rnh_indexd.png) no-repeat left 43px;
+	padding-left: 28px;
+}
+.local a{
+	color: #B2b0c1;
+}
+.local a:hover{
+	color: #FFFFFF;
+}
+.grzx{
+	overflow: hidden;
+}
+.grzx h3{
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-bottom: 9px;
+	background: url(rbh_zpxq03.jpg) no-repeat left 3px;
+}
+.grzx span{
+	color: #b2b0c1;
+}
+.grzx_left{
+	width: 240px;
+	background: #dbddf6;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 192px;
+	bottom: 0;
+	padding-top: 35px;
+	height:580px;
+}
+.grzx_left div {
+    font-size: 17px;
+    font-weight: bold;
+    height: 53px;
+    line-height:53px;
+    color: #333333;
+    cursor: pointer;
+}
+.grzx_left div p{
+	width: 240px;
+	height: 53px;
+    line-height:53px;
+    text-align: left;
+    padding-left:24px ;
+}
+.grzx_left div span{
+    display: inline-block;
+    width:43px;
+    height: 43px;
+    margin-right: 15px;
+    margin-left: 35px;
+}
+.hover{
+    color: white !important;
+    width: 265px;
+    height: 53px;
+    background: url(rbh_zxzq01.png) no-repeat right center;
+    position: relative;
+    z-index: 5;
+}
+.grzx_right{
+	width: 953px;
+	background: #dbddf6 url(rbh_zxzq02.png) no-repeat left top;
+	float: right;
+	overflow: hidden;
+	height: 580px;
+	padding: 110px 15px 26px 36px;
+	position: relative;
+}
+.cont{
+    height: 444px;
+    overflow: hidden;
+    /*display: none;*/
+    position: relative;
+}
+ .dl_list{
+	width: 871px;	
+	overflow: hidden;
+	color: #333333;
+	font-size: 17px;
+	line-height: 26px;
+	padding-left: 4px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-height: 444px;
+}
+#dl_list1 p{
+	margin: 0;
+	clear: both;
+	text-indent: 34px;
+}
+#dl_list2 p{
+	margin: 0;
+	clear: both;
+	text-indent: 34px;
+	width: 100%;
+}
+#dl_list2 p span{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.dl_list p{
+	float: left;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.dl_list img{
+	overflow: hidden;
+	float: left;
+}
+.dl_list .left34{
+	text-indent: 34px;display: inline-block;overflow: hidden;
+}
+.gdt{
+	overflow: hidden;
+	height: 444px;
+	width: 20px;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	background: url(rbh_zpxq09.jpg) repeat-y center;
+}
+.inner{
+	height: 16px;
+	width: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	background: url(rbh_zpxq08.png) no-repeat center;
+}
+.active1{
+	display: block !important;
+}

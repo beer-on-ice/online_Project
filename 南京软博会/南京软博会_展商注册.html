@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>展商注册</title>
+		<link rel="stylesheet" type="text/css" href="images/hanweb.css"/>
+		<link rel="stylesheet" type="text/css" href="images/rbh_zszc.css"/>
+		<script src="images/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="images/rbh_dlzc.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//验证码发送倒计时
+			var countdown=60; 
+			function settime(val) { 
+				if (countdown == 0) { 
+					val.removeAttribute("disabled");    
+					val.value="获取验证码"; 
+					countdown = 60; 
+				} else { 
+					val.setAttribute("disabled", true); 
+					val.value="重新发送(" + countdown + ")"; 
+					countdown--; 
+				} 
+				setTimeout(function() { 
+					settime(val) 
+				},1000) 
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div class="index-bg">
+		   <!--右部分切换-->
+		   <script src="images/右弹出框.js" type="text/javascript" charset="utf-8"></script>
+		    <!--侧导航结束-->
+		    <!--主要部分-->
+		    <div class="mian_dl">
+		    	<a href="" id="close"></a>
+		    	<div class="dlck">
+		    		<h3>展商注册</h3>
+					<div class="con_one" style="display: block;">
+						<form action="" method="">
+							<input type="text" name="" id="userShop" value="请输入展商名称" onClick='if(this.value=="请输入展商名称"){this.value="";this.focus();}' onBlur='if(this.value==""){this.value="请输入展商名称"}'/>
+							<input type="text" name="" id="user" value="请输入联系人姓名" onClick='if(this.value=="请输入联系人姓名"){this.value="";this.focus();}' onBlur='if(this.value==""){this.value="请输入联系人姓名"}'/>
+							<input type="text" name="" id="phnum" value="请输入手机号" onClick='if(this.value=="请输入手机号"){this.value="";this.focus();}' onBlur='if(this.value==""){this.value="请输入手机号"}'/>
+							<input type="text" name="" value="请输入短信验证码" id="text1" class="text1" onClick='if(this.value=="请输入短信验证码"){this.value="";this.focus();}' onBlur='if(this.value==""){this.value="请输入短信验证码"}'>
+							<input type="button"  id="btn" value="获取验证码" onclick="settime(this)"/> 
+							<span class="span1">
+								<input type="password" name="" value="" class="password" id="password">
+                				<input type="text" class="password" id="password1" value="请输入密码"/>
+							</span>	
+							<span class="span2">
+								<input type="password" name="" value="" class="password" id="password2">
+                				<input type="text" class="password" id="password3" value="请再次输入密码"/>
+							</span>	
+							<input type="text" name="" id="email" value="请输入展商名称" onClick='if(this.value=="请输入展商名称"){this.value="";this.focus();}' onBlur='if(this.value==""){this.value="请输入展商名称"}'/>
+							<p>记住我的账号</p>
+							<input type="submit" name="" id="btn1" value="确认" class="btn" />
+						</form>
+					</div>
+		    	</div>
+		    </div>
+		    
+		    <div style="height: 80px" class="bt-clear"></div>
+		    <div class="footer w1200 center">
+		        <span>备案号：苏ICP备15022807号-1</span>南京润展国际展览有限公司版权所有
+		    </div>
+		</div>
+		
+	</body>
+</html>

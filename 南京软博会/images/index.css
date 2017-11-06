@@ -1,0 +1,164 @@
+
+/*主体部分*/
+.main-bg{
+    z-index: 0;
+}
+/*pre netx*/
+.bt-pre , .bt-next{
+    width: 173px;
+    height: 341px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+/*主要*/
+.main-info-bg{
+    width: 834px;
+    height: 421px;
+    overflow: hidden;
+    position: relative;
+    left: 8px;
+}
+.main-info-box{
+    width: 2502px;
+    height: 421px;
+    position: relative;
+    left: 0px;
+}
+.main-info-box>li{
+    width: 834px;
+    height: 421px;
+    overflow: hidden;
+    float: left;
+}
+.main-info-box>li>ul{
+    width: 2502px;
+    height: 421px;
+    position: relative;
+}
+.main-info-box>li>ul>li{
+    width: 834px;
+    height: 421px;
+    float: left;
+}
+#main-info-1{
+    position: relative;
+    left: 0px;
+}
+#main-info-2{
+    position: relative;
+    left: 0px;
+}
+#main-info-3{
+    position: relative;
+    left: 0px;
+}
+/*底部切换*/
+.bottom-main-bg{
+    width: 534px;
+    height: 131px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bottom-main{
+    width: 99999px;
+    height: 131px;
+    position: relative;
+}
+.bottom-bg{
+    width: 534px;
+    height: 131px;
+    margin: 0 auto;
+    background: url("bottom-bg.png");
+    text-align: center;
+    float: left;
+}
+.bottom-bg p{
+    font-size: 36px;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.bottom-bg b{
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.bottom-box li{
+	position: relative;
+    width:auto;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    padding-left: 20px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    background: url("dian.png") 2px no-repeat;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.bottom-box p{
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+.bottom-box img{
+    position: absolute;
+    bottom: -7px;
+    left: 38px;
+    display: none;
+}
+.bottom-box2 li {
+	position: relative;
+    width:auto;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    padding-left: 20px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    background: url("dian.png") 2px no-repeat;
+    margin-left: 66px;
+    cursor: pointer;
+}
+.bottom-box2 p{
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+.bottom-box2 img{
+    position: absolute;
+    bottom: -7px;
+    left: 38px;
+    display: none;
+}
+.bottom-box3 li {
+	position: relative;
+    width:auto;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    padding-left: 20px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    background: url("dian.png") 2px no-repeat;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.bottom-box3 p{
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+.bottom-box3 img{
+    position: absolute;
+    bottom: -7px;
+    left: 38px;
+    display: none;
+}
+/*footer*/
+.footer{
+    font-size: 13px;
+    color: #8dc7ff;
+    text-align: center;
+    line-height: 30px;
+}

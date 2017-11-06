@@ -1,0 +1,363 @@
+.mian_grzx{
+	overflow: hidden;
+	width: 1200px;
+	margin: 120px auto 0;
+	position: relative;
+}
+.grzx{
+	overflow: hidden;
+}
+.grzx h3{
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-bottom: 9px;
+	background: url(rbh_zpxq03.jpg) no-repeat left 3px;
+}
+.grzx span{
+	color: #b2b0c1;
+}
+.grzx_left{
+	width: 240px;
+	background: #dbddf6;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 72px;
+	bottom: 0;
+	padding-top: 35px;
+	height:476px;
+}
+.grzx_left div {
+    font-size: 19px;
+    font-weight: bold;
+    height: 53px;
+    line-height:53px;
+}
+.grzx_left div span{
+    display: inline-block;
+    width:43px;
+    height: 43px;
+    margin-right: 15px;
+    margin-left: 35px;
+}
+#tb-01{
+    background: url("xin1_03.png") no-repeat;
+    vertical-align: middle;
+}
+.tb1{
+    background: url("xin2_03.png") no-repeat !important;
+}
+#tb-02{
+    background: url("ren1_03.png") no-repeat;
+    vertical-align: middle;
+}
+.tb2{
+    background: url("ren-2_03.png") no-repeat !important;
+}
+.hover{
+    color: white;
+    width: 265px;
+    height: 53px;
+    line-height: 53px;
+    font-weight: bold;
+    font-size: 19px;
+    background: url(bg-02.png) no-repeat center;
+    position: relative;
+    z-index: 5;
+}
+.grzx_left p{
+	height: 44px;
+	line-height: 44px;
+	font-weight: bold;
+	color: #333333;
+	font-size: 19px;
+	width: 136px;
+	padding-left: 60px;
+	margin: 40px auto 0;
+	background: url(rbh_grzx01.png) no-repeat left center;
+}
+.grzx_left .huiyi{
+	width: 265px;
+	height: 53px;
+	line-height: 53px;
+	padding-left: 94px;
+	font-weight: bold;
+	font-size: 19px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0;top: 100px;
+	background: url(rbh_grzx02.png) no-repeat center;
+	z-index: 5;
+}
+.grzx_right{
+	width: 953px;
+	background: #dbddf6;
+	float: right;
+	overflow: hidden;
+	padding: 38px 12px 0 40px;
+	position: relative;
+}
+#con-one-1,#con-one-2{
+    min-height: 386px;
+    overflow: hidden;
+}
+#con-one-2 dl{
+	width: 280px;
+	min-height: 410px;
+	background: #FFFFFF;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 20px;    
+}
+#con-one-2 dl:hover{
+	border-bottom: 4px solid #00acef;
+}
+#con-one-2 dl dt{
+	overflow: hidden;
+}
+#con-one-2 dl dd{
+	width: 100%;
+	padding: 18px 15px 0;
+}
+#con-one-2 dl dd h3{
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+	color: #6b1ccd;
+	margin-bottom: 12px;
+}
+#con-one-2 dl dt img{
+	height: 230px;
+	width: 370px;
+	float: left;
+}
+#con-one-2 dl ul{
+	font-size: 15px;
+	overflow: hidden;
+	color: #333333;
+}
+#con-one-2 dl ul li{
+	line-height: 24px;
+}
+#con-one-2 dl ul li span{
+	max-width: 175px;
+	display: inline-block;
+	overflow: hidden;
+}
+.part1{
+	overflow: hidden;
+	width: 882px;
+	border-bottom: 1px solid #0bccd9;
+	margin-top: 30px;
+}
+.part1 img{
+	height: 90px;
+	width: 186px;
+	float: left;
+}
+.part1 dl{
+	overflow: hidden;
+	height: 100%;
+	width: 672px;
+	float: right;
+	padding-bottom: 10px;
+}
+.part1 dl dt{
+	overflow: hidden;
+}
+.part1 dl dt a{
+	float: left;
+	font-size: 19px;
+	color: #6b1ccd;
+	padding-bottom: 8px;
+	overflow: hidden;
+}
+.part1 dl dd{
+	overflow: hidden;
+}
+.part1 dl dd p{
+	font-size: 17px;
+	color: #333333;
+}
+.part1 dl dd p span{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 96px;
+	background: url(rbh_grzx03.png) no-repeat left center;
+	color: #fefefe;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+.part1 dl dd span{
+	color: #666666;
+}
+/*分页*/
+.fenye{
+	position: absolute;
+	right: 32px;
+	bottom: 10px;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	color: #333333;
+}
+.fenye ul li{
+	float: left;
+	overflow: hidden;
+	font-size: 13px;
+	cursor: pointer;
+	height: 21px;
+	line-height: 21px;
+	margin-right: 10px;
+}
+#pageSize{
+	min-width: 39px;
+	background: #FFFFFF;
+	border: 0;
+}
+#firstPage{
+	width: 7px;
+	background: url(rbh_grzx05.png) no-repeat center;
+}
+#prevPage{
+	width: 5px;
+	background: url(rbh_grzx06.png) no-repeat center;
+}
+#nowPage{
+	overflow: hidden;
+	margin-right: 5px;
+}
+#nowPage span{
+	display: inline-block;
+	min-width: 39px;
+	padding: 0 4px;
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0 5px;
+}
+#PagesLen{
+	overflow: hidden;
+	padding-left: 6px;
+	background: url(rbh_grzx04.jpg) no-repeat left center;
+}
+#nextPage{
+	width: 5px;
+	background: url(rbh_grzx07_1.png) no-repeat center;
+}
+#lastPage{
+	width: 7px;
+	background: url(rbh_grzx08.png) no-repeat center;
+}
+#con-one-1{
+	height: 430px;
+	overflow: hidden;
+	position: relative;
+}
+#con-one-1 #ul_list{
+	height: 388px;
+	overflow: hidden;
+}
+#con-one-1 #ul_list li{
+	float: left;
+	overflow: hidden;
+	height: 388px;
+	width: 275px;
+	margin-right: 20px;	
+	position: relative;
+}
+#ul_list li .top{
+	height: 184px;
+	width: 275px;
+	position: relative;
+}
+#ul_list .tlt_img{
+	height: 184px;
+	width: 275px;
+	position: absolute;
+	left: 0;top: 0;
+	background: #5948d2;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	padding-top: 90px;
+	color: #FFFFFF;
+}
+
+#con-one-1 ul li a{
+	overflow: hidden;
+	height: 184px;
+	width: 100%;
+	display: none;
+	position: absolute;
+	left: 0;top: 0;
+	background: #5948d2;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+}
+#con-one-1 ul li .tlt_img{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	bottom: 0;	
+	color: #FFFFFF;
+	padding-bottom: 1px;
+}
+#con-one-1 .div_img .tlt_img span{
+	max-height: 56px;
+}
+#con-one-1 .tlt_img p{
+	text-align: center;
+	font-size: 19px;
+	height: 35px;
+	width: 100%;
+	background: url(rbh_rczp01.jpg) no-repeat center bottom;
+	
+}
+#con-one-1 .tlt_img span{
+	font-size: 12px;
+	margin: 12px auto 0;
+	display: block;
+	width: 228px;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+	text_align: center;
+}
+.active1{
+	display: block !important;
+}
+.active2{
+	display: none !important;
+}
+#con-one-1 ul li img{
+	float: left;
+	overflow: hidden;
+	background: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+#con-one-1 .tlt_bg{
+	position: absolute;
+	bottom: 0;left: 0;
+	height: 40px;
+	width: 100%;
+	background: #000000;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+#con-one-1 .tlt_txt{
+	position: absolute;
+	bottom: 0;left: 0;
+	height: 40px;
+	width: 100%;
+}
+#con-one-1 .tlt_txt p{
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
+	font-size: 13px;
+}

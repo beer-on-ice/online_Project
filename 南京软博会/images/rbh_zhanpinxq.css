@@ -1,0 +1,228 @@
+.mian_zpxq{
+	width: 1200px;
+	margin: 120px auto 0;
+	overflow: hidden;
+}
+
+/*职位列表*/
+.zpxq{
+	height: 300px;
+	width: 801px;
+	background: #FFFFFF;
+	padding: 20px 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border-bottom: 4px solid #0bccd9;
+}
+.zpxq h2{
+	font-size: 23px;
+	color: #333333;
+	padding-left: 24px;
+	padding-bottom: 8px;
+	background: url(rbh_rczp01.jpg) no-repeat 24px bottom;
+}
+.zpxq p{
+	/*width: 710px;*/
+	font-size: 17px;
+	color: #666666;
+	line-height: 24px;
+	height: 120px;
+	overflow: hidden;
+	margin: 24px;
+}
+.jrsc{
+	display: block;
+	background: url(rbh_hysp02.png) no-repeat center;
+	height: 41px;
+	line-height: 41px;
+	width: 143px;
+	margin: 34px auto 20px;
+	color: #FFFFFF;
+	padding-left: 49px;
+	cursor: pointer;
+}
+.zpxq_l{
+	height: 300px;
+	width: 392px;
+	float: right;
+	margin-left: 7px;
+	background: #dadef6;
+	padding: 20px;
+	position: relative;
+}
+.zpxq_l .it_logo{
+	display: block;
+	position: absolute;
+	right: 24px;
+	top: 16px;
+	overflow: hidden;
+	float: left;
+}
+.zpxq_l .it_logo img{
+	float: left;
+	height: 45px;
+	width: 48px;
+}
+.zpxq_l h2{
+	font-size: 23px;
+	color: #333333;
+	padding-bottom: 8px;
+	background: url(rbh_rczp01.jpg) no-repeat 0px bottom;
+}
+.zpxx{
+	overflow: hidden;
+	margin-top: 20px;
+	position: relative;
+}
+.zpxx p{
+	width: 335px;
+	color: #666666;
+	font-size: 17px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.zpxx p span{
+	max-width: 250px;
+	display: inline-block;
+	float: left;
+}
+.zpxx p a{
+	color: #564cd3;
+}
+.zxzx{
+	display: block;
+	background: url(rbh_zhanpinxq02.png) no-repeat center;
+	height: 41px;
+	line-height: 41px;
+	width: 143px;
+	margin: 18px auto 0;
+	color: #FFFFFF;
+	padding-left: 49px;
+	cursor: pointer;
+}
+.zpxq_b{
+	overflow: hidden;
+}
+.zpxq_b ul li{
+	height: 250px;
+	float: left;
+	margin-left: 7px;
+	overflow: hidden;
+}
+.xq_lb{
+	height: 250px;
+	width: 397px;
+	overflow: hidden;
+	position: relative;
+}
+.xq_lb .lb_img{
+	height: 250px;
+	width: 397px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xq_lb .lb_img img{
+	height: 250px;
+	width: 397px;
+	float: left;	
+}
+.xq_lb .lb_img li{
+	margin: 0;
+	float: left;
+	height: 250px;
+	width: 397px;
+}
+.xq_lb .btn{
+	height: 50px;
+	width: 25px;
+	cursor: pointer;
+	position: absolute;
+	top: 102px;
+	background: url(rbh_pre01.png) no-repeat center;
+	display: none;
+}
+#bt-pre{
+	left: 0;
+}
+#btn_next{
+	right: 0;
+	background: url(rbh_next01.png) no-repeat center;
+}
+
+
+.zpxq_b ul li img{
+	float: left;
+}
+.other{
+	width: 392px;
+	height: 250px;
+	background: #dadef6;
+}
+.other h2{
+	font-size: 23px;
+	color: #333333;
+	padding-left: 24px;
+	padding-bottom: 8px;
+	padding-top: 16px;
+	background: url(rbh_rczp01.jpg) no-repeat 24px bottom;
+}
+.other h2 a{
+	font-size: 23px;
+	color: #333333;
+}
+.other .a1{
+	float: left;
+	overflow: hidden;
+	margin-top: 21px;
+}
+.other img{
+	overflow: hidden;
+	float: left;
+	
+}
+.xq_lb1{
+	height: 175px;
+	width: 392px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-top: 21px;
+}
+.xq_lb1 .lb_img1{
+	height: 175px;
+	width: 392px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xq_lb1 .lb_img1 img{
+	height: 175px;
+	width: 193px;
+	float: left;	
+}
+.xq_lb1 .lb_img1 li{
+	margin: 0;
+	margin-right: 7px;
+	float: left;
+	height: 175px;
+	width: 193px;
+}
+.xq_lb1 .btn1{
+	height: 50px;
+	width: 25px;
+	cursor: pointer;
+	position: absolute;
+	top: 72px;
+	background: url(rbh_pre01.png) no-repeat center;
+	display: none;
+}
+#bt-pre1{
+	left: 0;
+}
+#btn_next1{
+	right: 0;
+	background: url(rbh_next01.png) no-repeat center;
+}
+ 

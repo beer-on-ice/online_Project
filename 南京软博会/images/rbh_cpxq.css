@@ -1,0 +1,249 @@
+.mian_cpxq{
+	overflow: hidden;
+	height: 495px;
+	width: 1200px;
+	margin: 120px auto 0;
+}
+#cpxq_left{
+	width: 520px;
+	float: left;
+	height: 495px;
+	position:relative;
+}
+#pic_list{
+	position:relative;
+	z-index:1;
+	}
+#pic_list li{
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:0;
+	fliter:alpha(opacity=0);
+	z-index:1;
+}
+#pic_list li img{
+	height: 371px;
+	width: 520px;
+}
+.mark{
+	height:42px;
+	width:520px;
+	background:#333333;
+	z-index:2;
+	position:absolute;
+	left:0;
+	top:330px;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	}
+#text_list{
+	width: 100%;
+	position:absolute;
+	top:330px;
+	left:0;
+	z-index:5;
+	height:42px;
+	overflow:hidden;
+	}
+#text_list h2{
+	height: 42px;
+	line-height: 38px;
+	padding-left: 12px;
+	display:none;
+	}
+#text_list h2 a{
+	display: block;
+	height: 42px;
+	line-height: 38px;
+	padding-left: 12px;
+	background: url(rbh_cpxq01.png) no-repeat 465px center;
+}
+#text_list .show{
+	display:block;
+	}
+#text_list a{
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration:none;
+	}
+#ico_list{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:525px;
+	overflow:hidden;
+	height:116px;
+	z-index:3;
+	}
+#ico_list ul{
+	position:absolute;
+	left:0;
+	top:0;
+	}
+#ico_list li{
+	width:125px;
+	float:left;
+	margin-left: 6px;
+	overflow: hidden;
+	}
+#ico_list li a{
+	width:125px;
+	display:block;
+	overflow: hidden;
+	background: #040303;
+	}
+#ico_list li img{
+	height:116px;
+	width:125px;
+	background:#040303;
+	opacity:0.3;
+	filter:alpha(opacity=30);
+	}
+#ico_list .active img{
+	opacity:1;
+	filter:alpha(opacity=100);
+	height:116px;
+	width:125px;
+}
+
+.cpxq_center{
+	width: 494px;
+	background: #dbddf6;
+	height: 495px;
+	padding: 20px 10px 10px 26px;
+	float: left;
+	margin: 0 8px;
+	position: relative;
+}
+.cpxq_center dl{
+	overflow: hidden;
+}
+.cpxq_center dt a{
+	overflow: hidden;
+	float: left;
+}
+.cpxq_center dt h3{
+	font-size: 23px;
+	font-weight: bold;
+	color: #333333;
+}
+.cpxq_center dd p{
+	font-size: 17px;
+	color: #666666;
+	line-height: 24px;
+}
+.cpxq_center dd p span{
+	color: #333333;
+}
+.cpxq_center dd p a{
+	color: #564cd3;
+}
+.zxzx{
+	height: 41px;
+	width: 143px;
+	background: #dbddf6 url(rbh_cpxq02.png) no-repeat center;
+	color: #FFFFFF;
+	font-size: 17px;
+	line-height: 41px;
+	padding-left: 50px;
+    position: absolute;
+    left: 40%;
+    bottom: 60px;
+}
+.cpxq_center ul{
+	width: 184px;
+	overflow: hidden;
+	float: right;
+	margin-top: 34px;
+    position: absolute;
+    right: 0px;
+    bottom: 12px;	
+	
+}
+.cpxq_center ul li{
+	float: left;
+	overflow: hidden;
+	line-height: 30px;
+}
+.cpxq_center ul li a{
+	float: left;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+.cpxq_center ul .list1{
+	background: url(rbh_cpxq02.jpg) no-repeat -6px center;
+}
+.cpxq_center ul .list2{
+	background: url(rbh_cpxq02.jpg) no-repeat -36px -1px;
+}
+.cpxq_center ul .list3{
+	background: url(rbh_cpxq02.jpg) no-repeat -69px 1px;
+}
+.cpxq_center ul .list4{
+	background: url(rbh_cpxq02.jpg) no-repeat -100px center;
+}
+
+
+.cpxq_right{
+	width: 169px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+}
+.cpxq_right .tlt1{
+	width: 170px;
+	overflow: hidden;
+	height: 170px;
+	background: #d6d7ef;
+	text-align:center;
+}
+.cpxq_right .tlt1 img{
+	max-width: 170px;
+	height: 45px;
+	text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cpxq_right .tlt1 span{
+	display: inline-block;
+    vertical-align: middle;
+    height: 170px;
+}
+.cpxq_right .cpxg{
+	overflow: hidden;
+	height: 317px;
+	width: 100%;
+	background: #dbddf6;
+	margin-top: 8px;
+}
+.cpxq_right .cpxg p{
+	color: #333333;
+	font-size: 15px;
+	font-weight: bold;
+	height: 55px;
+	width: 116px;
+	line-height: 55px;
+	padding-left: 85px;
+	margin-top: 20px;
+	width: 100%;
+}
+.cpxq_right .cpxg p:hover{
+	background-color: #FFFFFF;
+}
+.cpxq_right .cpxg .list1{
+	background: url(rbh_cpxq03.png) no-repeat 29px center;
+}
+.cpxq_right .cpxg .list2{
+	background: url(rbh_cpxq04.png) no-repeat 29px center;
+}
+.cpxq_right .cpxg .list3{
+	background: url(rbh_cpxq05.png) no-repeat 29px center;
+}
+.cpxq_right .cpxg .list4{
+	background: url(rbh_cpxq06.png) no-repeat 29px center;
+}
+

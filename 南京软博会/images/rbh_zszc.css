@@ -1,0 +1,137 @@
+.mian_dl{
+	height: 606px;
+	width: 897px;
+	background: url(rbh_zszc01.png) no-repeat center 20px;
+	margin: 120px auto 0;
+	overflow: hidden;
+	position: relative;
+}
+#close{
+	display: block;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 20px;
+	right: 0;
+}
+.dlck{
+	height: 606px;
+	width: 350px;
+	background: url(rbh_zszc02.png) no-repeat center;
+	float: right;
+	margin-right: 40px;
+	position: relative;
+}
+.dlck h3{
+	height: 22px;
+	line-height: 22px;
+	font-size: 19px;
+	font-weight: normal;
+	color: #666666;
+	width: 76px;
+	margin: 26px auto 0;
+}
+.con_one{
+	height: 330px;
+	width: 304px;
+	position: absolute;
+	left: 22px;
+	top: 90px;
+	display: none;
+}
+.con_one form{
+	overflow: hidden;
+	position: relative;
+}
+.con_one input{
+	height: 45px;
+	line-height: 45px;
+	padding-left: 62px;
+	border: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+	color: #999999;
+	font-size: 15px;
+}
+#userShop{
+	width: 304px;
+	background: url(rbh_zszc03.png) no-repeat center;
+	
+}
+#user{
+	width: 304px;
+	background: url(rbh_zszc04.png) no-repeat center;
+	
+}
+#email{
+	width: 304px;
+	background: url(rbh_zszc05.png) no-repeat center;
+}
+#phnum{
+	width: 304px;
+	background: url(rbh_dl02.png) no-repeat center;
+	
+}
+#password{
+	width: 304px;
+	background: url(rbh_dl03.png) no-repeat center;
+}
+#password1{
+	width: 304px;
+	background: url(rbh_dl03.png) no-repeat center;
+	position: absolute;
+	left: 0;
+	top: 220px;
+}
+#password2{
+	width: 304px;
+	background: url(rbh_dl03.png) no-repeat center;
+}
+#password3{
+	width: 304px;
+	background: url(rbh_dl03.png) no-repeat center;
+	position: absolute;
+	left: 0;
+	top: 275px;
+}
+#text1{
+	width: 195px;
+	background: url(rbh_dl04.png) no-repeat center;
+}
+#btn{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	width: 99px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	padding: 0;
+	background: url(rbh_dl07.png) no-repeat center;
+	position: absolute;
+	right: 0;
+	top: 165px;
+}
+.con_one form p{
+	height: 19px;
+	color: #999999;
+	font-size: 13px;
+	line-height: 19px;
+	padding-left: 27px;
+	background-image: url(rbh_dl05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#btn1,#zs_btn1{
+	height: 50px;
+	line-height: 50px;
+	width: 304px;
+	font-size: 21px;
+	color: #ffffff;
+	padding: 0;
+	margin-top: 36px;
+	background: url(rbh_dl10.png) no-repeat center;
+}
+
+
+

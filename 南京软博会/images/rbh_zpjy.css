@@ -1,0 +1,226 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mian_rczp{
+	width: 1200px;
+	margin: 120px auto 0;
+	overflow: hidden;
+}
+/*人才招聘*/
+.rczp{
+	overflow: hidden;
+}
+.rczp_l{
+	width: 50%;
+	float: left;
+}
+.rczp_l h3{
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-bottom: 9px;
+	background: url(rbh_zpxq03.jpg) no-repeat left 3px;
+}
+.rczp_l span{
+	color: #b2b0c1;
+}
+.rczp_r{
+	width: 50%;
+	float: left;
+	margin-top: 12px;
+	overflow: hidden;
+	position: relative;
+}
+.rczp_r input{
+	float: right;
+	height: 39px;
+	width: 393px;
+	line-height: 39px;
+	color: #c2c2c2;
+	font-size: 17px;
+	padding-left: 12px;
+	border: 1px solid #0bccd9;
+	background: #4d53d3 url(rbh_rczp01.png) no-repeat 350px center;
+}
+.rczp_r a{
+	display: block;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	right: 16px;
+	top: 7px;
+}
+/*职位列表*/
+.zwlb{
+	height: 463px;
+	width: 100%;
+	margin-top: 20px;
+	background: #dcdcf7;
+	padding: 36px 19px 34px 38px;
+	position: relative;
+}
+.zwlb .tab-tu{
+	height: 398px;
+    overflow: hidden;
+}
+.tab-tu li {
+    float: left;
+    width: 272px;
+    height: 188px;
+    margin-right: 10px;
+    margin-bottom: 11px;
+    position: relative;
+}
+.tab-tu li a{
+	float: left;
+}
+.tab-tu li img{
+	height: 188px;
+	width: 272px;
+	float: left;
+}
+.tab-tu .tlt_img{
+	height: 188px;
+	width: 272px;
+	position: absolute;
+	left: 0;top: 0;
+	background: #5948d2;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	display: none;
+	padding-top: 90px;
+	color: #FFFFFF;
+}
+.tlt_img p{
+	text-align: center;
+	font-size: 19px;
+	height: 35px;
+	background: url(rbh_rczp01.jpg) no-repeat center bottom;
+}
+.tlt_img span{
+	font-size: 12px;
+	margin: 12px auto 0;
+	display: block;
+	width: 228px;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.active1{
+	display: block !important;
+}
+
+.zwlb h2{
+	font-size: 23px;
+	color: #333333;
+	padding-left: 24px;
+	padding-bottom: 8px;
+	background: url(rbh_rczp01.jpg) no-repeat 24px bottom;
+}
+.part1{
+	height: 186px;
+	width: 600px;
+	padding: 20px 24px;
+	float: left;
+}
+.jgs{
+	color: #6b1ccd;
+	font-size: 19px;
+}
+.part1:hover{
+	background: #FFFFFF;
+	border-bottom: 4px solid #0bccd9;
+}
+.part1 ul{
+	width: 400px;
+	overflow: hidden;	
+}
+.part1 ul li{
+	height: auto;
+	font-size: 17px;
+	color: #666666;
+	padding-right: 70px;
+	float: left;
+	line-height: 26px;
+}
+
+.part1 ol{
+	overflow: hidden;
+	margin-top: 16px;
+}
+.part1 ol li{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	padding: 0 16px;
+	margin-right: 7px;
+	color: #6b1ccd;
+	border: 1px solid #6b1ccd;
+	border-radius: 4px;
+}
+.fenye{
+	position: absolute;
+	right: 32px;
+	bottom: 10px;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	color: #333333;
+}
+.fenye ul li{
+	float: left;
+	overflow: hidden;
+	font-size: 13px;
+	cursor: pointer;
+	height: 21px;
+	line-height: 21px;
+	margin-right: 10px;
+}
+#pageSize{
+	min-width: 39px;
+	background: #FFFFFF;
+	border: 0;
+}
+#firstPage{
+	width: 7px;
+	background: url(rbh_grzx05.png) no-repeat center;
+}
+#prevPage{
+	width: 5px;
+	background: url(rbh_grzx06.png) no-repeat center;
+}
+#nowPage{
+	overflow: hidden;
+	margin-right: 5px;
+}
+#nowPage span{
+	display: inline-block;
+	min-width: 39px;
+	padding: 0 4px;
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0 5px;
+}
+#PagesLen{
+	overflow: hidden;
+	padding-left: 6px;
+	background: url(rbh_grzx04.jpg) no-repeat left center;
+}
+#nextPage{
+	width: 5px;
+	background: url(rbh_grzx07_1.png) no-repeat center;
+}
+#lastPage{
+	width: 7px;
+	background: url(rbh_grzx08.png) no-repeat center;
+}

@@ -1,0 +1,98 @@
+/*主要部分*/
+.main_hyxq{
+	height: 560px;
+	width: 1200px;
+	margin: 120px auto 0;
+	background: #dadef6;
+	padding: 22px 24px;
+	position: relative;
+}
+.main_h3{
+	font-weight: 100;
+	padding-left: 15px;
+	background: url(rbh_zpxq03.jpg) no-repeat left center;
+}
+.main_h3 a{
+	color: #333333;
+	font-size: 17px;
+}
+.bt-clear{
+	width: 723px;
+	border-bottom: 1px solid #0bccd9;
+}
+.rjfh{
+	margin-top: 7px;
+	overflow: hidden;
+}
+
+/*视频*/
+.rjfh_h3{
+	background: url(rbh_hysp01.png) no-repeat left center;
+	color: #333333;
+	font-size: 19px;
+	font-weight: bold;
+	padding-left: 32px;
+	margin-bottom: 40px;
+}
+/*无视频*/
+.rjxq_h3{
+	width: 1152px;
+	color: #333333;
+	font-size: 19px;
+	font-weight: bold;
+	padding-left: 32px;
+	text-align: center;
+	border-bottom: 1px solid #0bccd9;
+	padding: 20px 0 30px;
+	margin-bottom: 24px;
+}
+
+.part1{
+	overflow: hidden;
+	font-size: 17px;
+	line-height: 37px;
+}
+.part1 .list1{
+	margin-bottom: 7px;
+	background: url(rbh_zpxq10.gif) no-repeat right center;
+	height: 37px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	margin-right: 13px;
+}
+.part1 .list2{
+	margin-bottom: 7px;
+	background: url(rbh_zpxq10.gif) no-repeat right center;
+	height: 37px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	margin-right: 13px;
+}
+.part1 span{
+	float: left;
+	width: 1020px;
+	color: #666666;
+}
+.part1 .list1{
+	width: 73px;
+}
+.part1 .list2{
+	width: 103px;
+}
+.schy{
+	background: url(rbh_hysp02.png) no-repeat center;
+	height: 41px;
+	line-height: 41px;
+	width: 143px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	padding-left: 49px;
+	cursor: pointer;
+}
+.spxx{
+	position: absolute;
+	right: 24px;
+	top: 75px;
+}
