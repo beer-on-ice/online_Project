@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="tools/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/check.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<style>
+			body{
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<!--导航条-->
+		<script src="js/navBar.js" charset="utf-8"></script>
+
+		<!--购物车内容-->
+		<div class="container account_content">
+			<div class="account_content_top"><div>MY ACCOUNT</div></div>
+
+			<div class="row">
+				<!--左侧内容-->
+				<div class="col-md-3 col-sm-3 col-xs-12 account_left_content">
+					<div class="headImg"><i class="glyphicon glyphicon-user"></i><img src="" id="img_box" style="display: none;"/></div>
+					<div class="uploadBtn" id="uploadBtn">UPLOAD PROFILE PHOTO</div>
+					<input type="file" id="file" style="display: none;"/>
+				</div>
+				<!--右侧内容-->
+				<div class="col-md-9 col-sm-9 col-xs-12 account_right_content">
+					<div class="col-md-12 col-sm-12 col-xs-12 account_box">
+						<div class="account_head">
+							<div>Basic Information</div>
+							<div>EDIT</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="account_input">
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="First">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Last">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Passward">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Confirm Passward">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 account_box">
+						<div class="account_head">
+							<div>Billing Information</div>
+							<div>SAVE</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="account_input">
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Street 1">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Street 2">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="City">
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-md-6 col-sm-6">
+								<select class="form-control"></select>
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Zip Code">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 account_box">
+						<div class="account_head">
+							<div>Shipping Information</div>
+							<div>EDIT</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="account_input">
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Street 1">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Street 2">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="City">
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-md-6 col-sm-6">
+								<select class="form-control"></select>
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Zip Code">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 account_box">
+						<div class="account_head">
+							<div>Credit Card nformation</div>
+							<div>EDIT</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="account_input">
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Name On Card">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Card Number">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Expiration Date">
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<input type="text" class="form-control" placeholder="Security Code">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 account_box">
+						<div class="history_head">
+							<div>Order History</div>
+
+						</div>
+						<div class=" col-md-12 col-sm-12 col-xs-12">
+							<div class="history_box">
+								<div class="history_left_box col-md-3 col-sm-3"><div class="history_left_img"></div></div>
+								<div class="col-md-9 col-sm-9 history_text">
+									<div class="col-md-4 col-sm-4">Design Name</div>
+									<div class="col-md-5 col-sm-5 ">04/07/2017</div>
+									<div class="col-md-3 col-sm-3">SHARE</div>
+									<div class="col-md-12 col-sm-12">The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body.</div>
+								</div>
+								<div class="clearBoth"></div>
+							</div>
+
+							<div class="history_box">
+								<div class="history_left_box col-md-3 col-sm-3"><div class="history_left_img"></div></div>
+								<div class="col-md-9 col-sm-9 history_text">
+									<div class="col-md-4 col-sm-4">Design Name</div>
+									<div class="col-md-5 col-sm-5 ">04/07/2017</div>
+									<div class="col-md-3 col-sm-3">SHARE</div>
+									<div class="col-md-12 col-sm-12">The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body.</div>
+								</div>
+								<div class="clearBoth"></div>
+							</div>
+
+							<div class="history_box">
+								<div class="history_left_box col-md-3 col-sm-3"><div class="history_left_img"></div></div>
+								<div class="col-md-9 col-sm-9 history_text">
+									<div class="col-md-4 col-sm-4">Design Name</div>
+									<div class="col-md-5 col-sm-5 ">04/07/2017</div>
+									<div class="col-md-3 col-sm-3">SHARE</div>
+									<div class="col-md-12 col-sm-12">The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body.</div>
+								</div>
+								<div class="clearBoth"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--页脚-->
+		<script src="js/footer.js" charset="utf-8"></script>
+
+
+
+	</body>
+	<script src="tools/bootstrap/js/jquery-3.1.0.min.js"></script>
+	<script src="tools/bootstrap/js/bootstrap.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#uploadBtn").click(function(){
+				$("#file").trigger("click");
+			});
+			$("#file").on("change",function(e){
+				var file=$("#file")[0].files[0];
+				if(file){
+					var reader=new FileReader();
+					reader.readAsDataURL(file);
+					reader.addEventListener("load",function(e){
+						$("#img_box").show();
+						$("#img_box").attr("src",this.result);
+					})
+				}
+			});
+		})
+	</script>
+</html>

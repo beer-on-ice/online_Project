@@ -1,0 +1,304 @@
+.check_content{
+	margin-top: 50px;
+	width: 70%;
+}
+.check_title{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.check_content input[type=text],.check_content select{
+	border: 1px solid #000;
+	border-radius: 0;
+	height: 40px;
+	margin-top: 20px;
+}
+.check_selection{
+	color: #9b9b9b;
+	font-weight: bold;
+	font-size: 16px;
+}
+.checkBox{
+	width: 15px;
+	height: 15px;
+	display: block;
+	border: 1px solid #3ad9ff;
+	cursor: pointer;
+	background-color: #3ad9ff;
+}
+.icon-right{
+	font-size: 10px!important;
+	text-align: center;
+	line-height: 15px;
+	color: white;
+}
+.checkbox_box{
+	margin-top: 20px;
+}
+.checkbox_box span:nth-child(3){
+	line-height: 15px;
+	margin-left: 10px;
+	max-width: 80%;
+}
+.check_billing{
+	margin-top: 40px;
+}
+.check_ship{
+	margin-top: 50px;
+}
+.check_credit{
+	margin-top: 50px;
+}
+.check_selection{
+	margin-top: 50px;
+}
+.check_review{
+	margin-top: 50px;
+}
+.roundBtn{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 2px solid #f11f5e;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	box-sizing: content-box;
+}
+.round::before{
+	content: '';
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 2px;
+	left: 2px;
+	background-color: #f11f5e;
+	border-radius: 50%;
+}
+.roundBtn_text{
+	float: left;
+	margin-left: 10px;
+}
+.method_remind{
+	color: #f11f5e;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 30px;
+}
+.check_apply{
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.check_apply div:nth-child(1){
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	line-height: 40px;
+	margin-right: 20px;
+}
+.check_content .check_apply input:nth-child(2){
+	width: 200px;
+	height: 40px;
+	border: 1px solid #000;
+	background-color: #f4f4f4;
+	font-size: 16px;
+	float: left;
+	margin: 0;
+}
+.check_content .check_apply button:nth-child(3){
+	background-color: #f11f5e;
+	float: left;
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
+	margin: 5px 0 0 20px;
+}
+.check_price_box div{
+	font-weight: bold;
+	font-size: 16px;
+}
+.check_price_box :nth-child(n){
+	margin: 10px 0;
+}
+.check_submit_box{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.check_submit{
+	width: 100%;
+	height: 50px;
+	background-color: #f11f5e;
+	font-size: 22px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer;
+}
+#last_text{
+	max-width: 90%;
+}
+@media (max-width:768px ) {
+	.check_content{
+		width: 100%;
+	}
+	.check_content .check_apply button:nth-child(3){
+		margin: 5px 0 0 5px;
+	}
+	.check_submit_box{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.check_submit{
+		width: 200px;
+		height: 40px;
+		font-size: 16px;
+		line-height: 40px;
+		margin: 0 auto;
+	}
+	#last_text{
+		max-width: 90%;
+	}
+}
+
+/*账号*/
+.account_content{
+	margin-top: 30px;
+}
+.account_content_top{
+	font-size: 20px;
+    font-weight: bold;
+}
+.headImg{
+	width:250px;
+	height: 250px;
+	background-color: #f2f2f2;
+	font-size: 40px;
+	color: #8b8b8b;
+	text-align: center;
+	line-height: 250px;
+	position: relative;
+}
+#img_box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.uploadBtn{
+	width: 250px;
+	height: 40px;
+	background-color: #3ad9ff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.account_left_content{
+	margin-top: 20px;
+}
+.account_box{
+	padding: 0;
+	margin-top: 20px;
+}
+.account_head{
+	padding: 0 15px;
+}
+.account_input{
+	padding: 0;
+}
+.account_head div:nth-child(1){
+	float: left;
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+.account_head div:nth-child(2){
+	float: right;
+	width: 120px;
+	height: 30px;
+	background-color: #f11f5e;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.account_box input,.account_box select{
+	border: 1px solid #000;
+	border-radius: 0;
+	height: 40px;
+	margin-top: 20px;
+}
+.history_box{
+	width: 100%;
+	border: 1px solid #979797;
+	margin-top: 20px;
+}
+.history_head{
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: bold;
+	padding: 0 15px;
+}
+.history_left_box{
+	height: 200px;
+	padding: 0;
+}
+.history_left_img{
+	height: 100%;
+	background-color: #d4d4d4;
+}
+.history_text div:nth-child(1),.history_text div:nth-child(2){
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.history_text div:nth-child(3){
+	width: 130px;
+	height: 30px;
+	color: white;
+	background-color: #3ad9ff;
+	text-align: center;
+	line-height: 30px;
+
+	margin: 20px 10px 0 0;
+}
+.history_text div:nth-child(4){
+	color: #84898f;
+	margin-top: 20px;
+}
+@media (max-width:768px ) {
+	.history_box{
+		padding-bottom: 20px;
+	}
+}
+@media (max-width:1000px ) {
+	.headImg{
+		width: 150px;
+		height: 150px;
+		line-height: 150px;
+	}
+	.uploadBtn{
+		width: 150px;
+	}
+}
+@media (max-width:768px ) {
+	.headImg{
+		width: 250px;
+		height: 250px;
+		line-height: 250px;
+		margin: 0 auto;
+	}
+	.uploadBtn{
+		width: 250px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}

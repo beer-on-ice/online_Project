@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="tools/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/create.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="tools/color/colpick.css"/>
+		<!-- 引用谷歌字体 -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto|Dosis|Ubuntu|Anton|Nunito|Lobster|Pacifico|Cinzel|Audiowide|Comfortaa">
+		<style>
+			body{
+				background-color: #fff;
+			}
+			.board_box{
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background-position: 153px 48px;
+				background-repeat: no-repeat;
+			}
+			.board{
+				position: absolute;
+				left: 150px;
+				top: 20px;
+				height: 500px;
+				z-index: 1;
+			}
+
+			.canvas-container{
+				width: 100%!important;
+			}
+			.upper-canvas{
+				left: 161px!important;
+				top: 23px!important;
+			}
+			.Roboto {
+		        font-family: 'Roboto', serif;
+	      	}
+	      	.Dosis {
+		        font-family: 'Dosis', serif;
+	      	}
+	      	.Ubuntu {
+		        font-family: 'Ubuntu', serif;
+	      	}
+	      	.Anton {
+		        font-family: 'Anton', serif;
+	      	}
+	      	.Nunito {
+		        font-family: 'Nunito', serif;
+	      	}
+	      	.Lobster {
+		        font-family: 'Lobster', serif;
+	      	}
+	      	.Pacifico {
+		        font-family: 'Pacifico', serif;
+	      	}
+	      	.Cinzel {
+		        font-family: 'Cinzel', serif;
+	      	}
+	      	.Audiowide {
+		        font-family: 'Audiowide', serif;
+	      	}
+	      	.Comfortaa {
+		        font-family: 'Comfortaa', serif;
+	      	}
+		</style>
+	</head>
+	<body>
+		<!--导航条-->
+		<script src="js/navBar.js" charset="utf-8"></script>
+
+		<!--介绍文本-->
+		<div class="create_text_box">
+			<div class="create_text_head">CREATE YOUR CASE</div>
+			<div class="create_text_body container">The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes, in which he portrayed the statue without a nose in 1737, disprove the Napoleon story.
+				 The story of the artist allegedly cutting off his ear and sending it to his beloved is quite exaggerated. In reality, the whole thing happened after a conflict with his friend, Paul Gauguin, during which Van Gogh attacked him with a razor. In a fit of remorse (or, according to some researchers, madness), Vincent cut off a lobe of his ear that same night.
+			</div>
+		</div>
+		<!--制作过程导航菜单-->
+		<div class="container">
+			<ul class="row create_nav_box">
+				<li class="col-md-3 col-sm-3 col-xs-12 active" data-active="1" data-num="1">STEP1:BACKGROUND</li>
+				<li class="col-md-3 col-sm-3 col-xs-12" data-active="0" data-num="2">STEP2:ADD IMAGE</li>
+				<li class="col-md-3 col-sm-3 col-xs-12" data-active="0" data-num="3">STEP3:ADD TEXT</li>
+				<li class="col-md-3 col-sm-3 col-xs-12" data-active="0" data-num="4">STEP4:PREVIEW</li>
+			</ul>
+		</div>
+
+		<!--制作内容-->
+		<div class="container create_content">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12 create_addImage_left">
+					<div id="skip1">
+						<div class="create_addImage_head">BACKGROUND</div>
+						<div class="create_extra_box">
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/tiaowen.jpg);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/biaoge.jpg);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/bolang.jpg);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/gezi.jpg);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/tiankong.png);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/tangguo.jpg);"></div>
+							</div>
+							<div class="extra_box">
+								<div>Material</div>
+								<div class="extra_img" style="background-image: url(images/cuican.jpg);"></div>
+							</div>
+						</div>
+					</div>
+
+					<div id="skip2" style="display: none;">
+						<div class="create_addImage_head">ADD YOUR IMAGE</div>
+						<div class="create_addImg" >
+							<div id="upload"><img src="images/upload.png" alt="" /></div>
+							<div>UPLOAD FROM COMPUTER</div>
+							<input type="file" style="display: none;" id="fileImg"/>
+							<div style="display: none;" id="upload_img">
+							</div>
+							<!--<div style="display: none;" id="trigger_btn"></div>-->
+						</div>
+						<div class="create_addImg">
+							<div><img src="images/faceBook2.png" alt="" /></div>
+							<div>IMPORT FROM FACEBOOK</div>
+						</div>
+						<div class="create_addImg">
+							<div><img src="images/ins.png" alt="" /></div>
+							<div>IMPORT FROM INSTAGRAM</div>
+						</div>
+					</div>
+
+					<div id="skip3" style="display: none;">
+						<div class="create_addImage_head">ADD TEXT</div>
+						<form class="create_addText_box">
+							<textarea class="addText_area" placeholder="Write something awesome here ..." id="addText_area"></textarea>
+							<div class="create_form_box">
+								<div>Select Font</div>
+								<select class="form-control create_addText_select" id="fontFamily_btn">
+									<option value="Roboto">Roboto</option>
+									<option value="Dosis">Dosis</option>
+									<option value="Ubuntu">Ubuntu</option>
+									<option value="Anton">Anton</option>
+									<option value="Nunito">Nunito</option>
+									<option value="Lobster">Lobster</option>
+									<option value="Pacifico">Pacifico</option>
+									<option value="Cinzel">Cinzel</option>
+									<option value="Audiowide">Audiowide</option>
+									<option value="Comfortaa">Comfortaa</option>
+								</select>
+							</div>
+							<div class="create_form_box">
+								<div>Select Size</div>
+								<div class="create_num_box">
+									<input type="number" value="18" class="create_addText_num" id="create_addText_num"/>
+									<div class="num_top"><i class="glyphicon glyphicon-triangle-top"></i></div>
+									<div class="num_bottom"><i class="glyphicon glyphicon-triangle-bottom"></i></div>
+								</div>
+
+							</div>
+							<div class="create_form_box">
+								<div>Select Color</div>
+								<div class="create_addText_color" id="select_color"></div>
+								<div class="create_addText_btn">ADD TEXT</div>
+								<div class="create_addText_skip">SKIP THIS STEP</div>
+							</div>
+						</form>
+					</div>
+
+					<div id="skip4" style="display: none;">
+						<div class="create_edit"><i class="glyphicon glyphicon-chevron-left"></i>EDIT</div>
+					</div>
+
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 editor">
+					<div class="board_box" >
+						<canvas id="editor" width="260" height="548" ></canvas>
+						<!--234 493-->
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12 create_addImage_right">
+					<div>Design Tips:</div>
+					<div><img src="images/design_tips.png" alt="" /></div>
+					<div>The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes</div>
+
+				</div>
+			</div>
+			<div class="create_next" id="next"><span style="line-height: 20px;">NEXT STEP</span><i class="glyphicon glyphicon-chevron-right" ></i></div>
+			<div class="create_addCart_box" style="display: none;">
+				<div class="create_addCart">ADD TO CART</div>
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</div>
+
+		</div>
+
+		<!--底部操作按钮-->
+		<div class="container">
+			<div class="create_btn_box row">
+				<div class="create_box">
+					<button class="btn btn-primary" id="rotate_left">Rotate Left</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-primary" id="rotate_right">Rotate Right</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-success" id="zoom_in">Zoom In</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-success" id="zoom_out">Zoom Out</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-info" data-toggle="modal" data-target="#myModal" id="choose_color">Color</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-warning" id="edit_text">Edit Text</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-danger" id="delate">Delete</button>
+				</div>
+				<div class="create_box">
+					<button class="btn btn-default" id="complete">Complete Design</button>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+		</div>
+
+		<!--页脚-->
+		<script src="js/footer.js" charset="utf-8"></script>
+
+		<!--弹出层-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  			<div class="wrap_box container" role="document">
+  				<div class="color_top">SELECT BACKGROUND COLOR</div>
+				<ul class="color_box">
+					<li style="background-color: #FFFF00;"></li>
+					<li style="background-color: #00e1c4;"></li>
+					<li style="background-color: #eb0d5b;"></li>
+					<li style="background-color: #000;"></li>
+					<li style="background-color: #7FAFCF;"></li>
+					<li style="background-color: #084723;"></li>
+					<li style="background-color: #b4ff00;"></li>
+					<li style="background-color: #94072f;"></li>
+					<div class="clearBoth"></div>
+				</ul>
+				<div class="color_ok" id="color_ok" data-dismiss="modal">OK</div>
+				<div class="wrap_close" data-dismiss="modal">Close<i class="glyphicon glyphicon-remove" style="font-size: 18px;font-weight: normal;"></i></div>
+  			</div>
+		</div>
+
+	</body>
+	<script src="tools/bootstrap/js/jquery-3.1.0.min.js"></script>
+	<script src="js/fabric.js"></script>
+	<script src="tools/bootstrap/js/bootstrap.js"></script>
+	<script src="tools/color/colpick.js"></script>
+	<script src="tools/color/plugin.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var skipNum=1;
+			$(".create_nav_box li").click(function(){
+				skipNum=$(this).data("num");
+				$(".create_nav_box li").removeClass("active");
+				$(".create_nav_box li")[skipNum-1].classList.add("active");
+				skip(skipNum);
+			})
+			$("#next").click(function(){
+				skipNum++;
+				if(skipNum<=$(".create_nav_box li").length){
+					$(".create_nav_box li").removeClass("active");
+					$(".create_nav_box li")[skipNum-1].classList.add("active");
+				}
+				skip(skipNum);
+			});
+			$(".create_addText_skip").click(function(){
+				skipNum++;
+				skip(skipNum);
+				$(".create_nav_box li").removeClass("active");
+				$(".create_nav_box li")[skipNum-1].classList.add("active");
+			});
+			$(".create_edit").click(function(){
+				skipNum--;
+				skip(skipNum);
+				$(".create_nav_box li").removeClass("active");
+				$(".create_nav_box li")[skipNum-1].classList.add("active");
+			});
+			$("#edit_text").click(function(){
+				skipNum=2;
+				skip(skipNum);
+				$(".create_nav_box li").removeClass("active");
+				$(".create_nav_box li")[skipNum-1].classList.add("active");
+			})
+
+			// 导航栏切换时的变化
+			function skip(num){
+				if(skipNum==1){
+					$("#skip1,#skip2,#skip3,#skip4").hide();
+					$(".create_addImage_left").css("border-color","#979797");
+					$("#skip1").show();
+					$(".create_next").show();
+					$(".create_addCart_box").hide();
+					var items=canvas.getObjects().length;
+					for(var i=0;i<items;i++){
+						canvas.item(i).selectable=true;
+					}
+					canvas.renderAll();
+				}else if(skipNum==2){
+					$("#skip1,#skip2,#skip3,#skip4").hide();
+					$(".create_addImage_left").css("border-color","#979797");
+					$("#skip2").show();
+					$(".create_next").show();
+					$(".create_addCart_box").hide();
+					var items=canvas.getObjects().length;
+					for(var i=0;i<items;i++){
+						canvas.item(i).selectable=true;
+					}
+					canvas.renderAll();
+				}else if(skipNum==3){
+					$("#skip1,#skip2,#skip3,#skip4").hide();
+					$(".create_addImage_left").css("border-color","#979797");
+					$("#skip3").show();
+					$(".create_next").show();
+					$(".create_addCart_box").hide();
+					var items=canvas.getObjects().length;
+					for(var i=0;i<items;i++){
+						canvas.item(i).selectable=true;
+					}
+					canvas.renderAll();
+				}else if(skipNum==4){
+					$("#skip1,#skip2,#skip3,#skip4").hide();
+					$("#skip4").show();
+					$(".create_addImage_left").css("border-color","#fff");
+					$(".create_next").hide();
+					$(".create_addCart_box").show();
+					var items=canvas.getObjects().length;
+					for(var i=0;i<items;i++){
+						canvas.item(i).selectable=false;
+					}
+					canvas.renderAll();
+				}
+			}
+
+
+
+			//数字按钮 文字大小
+			$(".create_addImage_left").on("click",".num_top",function(){
+				var inputNum=$(".create_addText_num").val();
+				$(".create_addText_num").val(++inputNum);
+			});
+			$(".create_addImage_left").on("click",".num_bottom",function(){
+				var inputNum=$(".create_addText_num").val();
+				$(".create_addText_num").val(--inputNum);
+			});
+
+
+
+			//操作手机壳
+			var canvas=new fabric.Canvas("editor"); // 创建画布
+			//点击canvas对象事件
+			canvas.on({
+				'object:moving':onChange,
+				'object:scaling':onChange,
+				'object:rotating':onChange,
+				'object:selected':onChange, // 选中
+				'selection:cleared':comChange, //失去焦点
+				'mouse:up':onMap
+			});
+			var num=1;
+			// 设置背景
+			canvas.setOverlayImage("images/ipone1.png",canvas.renderAll.bind(canvas))
+			//上传图片
+			$(".create_addImage_left").on("click","#upload",function(){
+				$("#fileImg").trigger("click");
+			});
+			var fileImg=document.querySelector('#fileImg');
+			$(".create_addImage_left").on("change","#fileImg",function(){
+				var file=fileImg.files[0];
+				if(file){
+					var reader=new FileReader();
+					reader.readAsDataURL(file);
+					$("#upload_img").append('<img class="uploadImg'+(num++)+'">');
+					reader.addEventListener("load",function (){
+
+						$("#upload_img").children().last().attr("src",this.result);
+
+						// 加载上传的图片,并进行预处理
+						fabric.Image.fromURL(this.result,function(img){
+							img.set({left:10,top:40,transparentCorners:false,cornerColor:"#333"});
+							var imgWidth=img.getWidth();
+							var imgHeight=img.getHeight();
+							if(imgWidth>imgHeight){
+								if(imgWidth>220){
+									var scaleNum=220/imgWidth;
+									img.scale(scaleNum);
+								}
+							}else{
+								if(imgHeight>430){
+									var scaleNum=430/imgHeight;
+									img.scale(scaleNum);
+								}
+							}
+
+							canvas.add(img);
+							canvas.forEachObject(function(obj){
+								if(obj['type']!='text'){
+									obj.moveTo(0);
+								}
+							})
+						})
+					});
+
+				}
+
+			});
+
+			//换背景颜色
+			$(".color_box li").on("click",function(){
+				var thisColor=$(this).css("background-color");
+				$("#color_ok").css("background-color",thisColor);
+
+			});
+			$("#color_ok").on("click",function(){
+				var color=$("#color_ok").css("background-color");
+				canvas.backgroundColor=color;
+				canvas.renderAll();
+			});
+
+			function loadImg(){
+				var imgElement =$("#upload_img").children().last()[0];
+
+				var rotateImg=new fabric.Image(imgElement,{left:0,top:0});
+
+				canvas.add(rotateImg);
+			}
+
+
+
+	//////////////////// 取色器 ////////////////
+			//添加文字
+			$("#select_color").colpick();
+
+			// 取色器ok按钮
+			$(".colpick_submit").on("click",function(){
+				var fontColor="#"+$(".colpick_hex_field input").val();
+				$("#select_color").css("background-color",fontColor);
+			})
+			$(".create_addText_btn").on("click",function(){
+				var textValue=$("#addText_area").val();
+				var fontFamily=$("#fontFamily_btn").val();
+				var fontSize=$("#create_addText_num").val();
+				var fontColor=$("#select_color").css("background-color");
+				// 设置文本
+				var text=new fabric.Text(textValue,{
+					left:0,
+					top:100,
+					fontFamily:fontFamily,
+					fontSize:fontSize,
+					fill:fontColor,
+					transparentCorners:false,
+					cornerColor:"#333"});
+				canvas.add(text);
+//				setThis(text);
+			});
+			//修改文字字体
+			$('#fontFamily_btn').change(function(){
+				//修改 textarea 里的字体
+				$('#addText_area').addClass($('#fontFamily_btn').val());
+				setTimeout(function(){
+					var object = canvas.getActiveObject();
+				 	if (!object) return;
+				 	object.set('fontFamily', $('#fontFamily_btn').val()).setCoords();
+				 	canvas.renderAll();
+				},500)
+			})
+
+			//更换背景
+			$(".extra_img").click(function(){
+				var imgUrl=$(this).css("background-image");
+				var imgUrlArray=imgUrl.split('"');
+				canvas.setBackgroundImage(imgUrlArray[1],canvas.renderAll.bind(canvas));//在变化时重新渲染
+			});
+
+			//删除按钮
+			$("#delate").click(function(){
+				var activeObj=canvas.getActiveObject();
+				canvas.remove(activeObj);
+			});
+			//左右旋转
+			$("#rotate_left").click(function(){
+				rotate("left");
+			});
+			$("#rotate_right").click(function(){
+				rotate("right");
+			});
+			function rotate(direct){
+				var oneAngle=0;
+				if(direct=="left"){
+					oneAngle=15;
+				}else if(direct=="right"){
+					oneAngle=-15;
+				}
+				//获取当前选中对象，
+				var activeObj=canvas.getActiveObject();
+				if(activeObj){
+					var angleNum=activeObj.getAngle();
+					activeObj.set('angle',angleNum+oneAngle);
+					// 绘制在画布上
+					canvas.renderAll();
+				}
+			}
+			//大小变化
+			$("#zoom_in").click(function(){
+				zoom("in");
+			});
+			$("#zoom_out").click(function(){
+				zoom("out");
+			});
+			function zoom(direct){
+				var oneScale=0;
+				if(direct=="in"){
+					oneScale=0.1;
+				}else if(direct=="out"){
+					oneScale=-0.1;
+				}
+				var activeObj=canvas.getActiveObject();
+				if(activeObj){
+					var scaleNum=activeObj.getScaleX();
+					if(scaleNum+oneScale<=0.1){
+						alert("不可以再小了");
+						return false;
+					}
+					activeObj.scale(scaleNum+oneScale);
+					canvas.renderAll();
+				}
+			}
+
+			$("#complete").click(function(){
+				window.open(canvas.toDataURL('jpg'));
+			})
+
+
+			//移动时，相交的地方改变透明度的函数
+			function onChange(options){
+				var isConnected=true;
+				options.target.setCoords();
+				//遍历设置透明度
+				canvas.forEachObject(function(obj){
+					if(obj === options.target) return;
+					obj.set('opacity',1);
+					//当被遮挡的元素是文并且所选的元素不是文字时，元素半透明
+					if(options.target.intersectsWithObject(obj) && obj['type']=='text' && options.target['type']!='text'){
+						isConnected=false;
+						options.target.set('opacity',0.3);
+					}
+				})
+				if(isConnected){
+					comChange();
+				}
+				if (options['target'] != null) {
+			  		lockPos(options);
+			  	}
+			}
+
+			function comChange(){
+				canvas.forEachObject(function(obj){
+					obj.set('opacity',1);
+					if(obj['type']!='text'){
+						obj.moveTo(0);
+					}
+				})
+			}
+			var isCover=false;
+			function onMap(options){
+
+				if(options['target']!=null){
+					var k=0;
+					var o;
+					canvas.forEachObject(function(obj){
+						if (options.target.intersectsWithObject(obj) && obj['type'] == 'text' && options.target['type'] != 'text') {
+							k ++;
+							o = obj;
+						}
+					});
+					if(k>0){
+						if(isCover){
+							//设置为当前选中
+							canvas.setActiveObject(o);
+							isCover=false;
+							return;
+						}else{
+							isCover=true;
+							return;
+						}
+					}
+				}
+			}
+
+			function lockPos(options) {
+				//元素左侧距离，顶侧距离，当前宽度，当前高度，画布宽度，画布高度
+				var oLeft = options['target']['left'];
+				var oTop = options['target']['top'];
+				var oWidth = options['target']['width'] * options['target']['scaleX'];
+				var oHeight = options['target']['height'] * options['target']['scaleY'];
+				var cWidth = canvas.getWidth();
+				var cHeight = canvas.getHeight();
+				//限定元素两侧只能超出10个像素
+				if (oLeft < -10) {
+    					options['target'].set('left', -10).setCoords();
+				}
+				if (oLeft > (cWidth - oWidth + 10)) {
+    					options['target'].set('left', (cWidth - oWidth + 10)).setCoords();
+				}
+				//限定元素上下只能超出10个像素
+				if (oTop < -10) {
+    					options['target'].set('top', -10).setCoords();
+				}
+				if (oTop > (cHeight - oHeight + 10)) {
+    					options['target'].set('top', (cHeight - oHeight + 10)).setCoords();
+				}
+			}
+
+
+		})
+
+	</script>
+</html>

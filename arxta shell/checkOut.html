@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="tools/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/check.css"/>
+		<link rel="stylesheet" type="text/css" href="css/design.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<style>
+			body{
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<!--导航条-->
+		<script src="js/navBar.js" charset="utf-8"></script>
+
+		<!--支付内容-->
+		<div class="container check_content">
+			<div class="check_title">CHECK OUT</div>
+			<div class="check_billing">
+				<div class="check_selection">1.Billing Address</div>
+				<form class="row form_box">
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="sheet1">
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="sheet2">
+					</div>
+
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="City">
+					</div>
+					<div class="clearfix"></div>
+					<div class="form-group col-md-6 col-sm-6">
+						<select class="form-control"></select>
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Zip Code">
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<input type="checkbox" style="display: none;" checked="true">
+						<span class="checkBox iconfont icon-right" style="float: left;"></span>
+						<span style="float: left;">Save this billing address as default billing address</span>
+					</div>
+
+				</form>
+			</div>
+
+			<div class="check_ship">
+				<div class="check_selection">2.Shipping Address</div>
+				<form class="row form_box">
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn"></div>
+						<div class="roundBtn_text">Save as billing address</div>
+						<div class="clearBoth"></div>
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn round"></div>
+						<div class="roundBtn_text">Ship to different address</div>
+						<div class="clearBoth"></div>
+					</div>
+
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="sheet1">
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="sheet2">
+					</div>
+
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="City">
+					</div>
+					<div class="clearfix"></div>
+					<div class="form-group col-md-6 col-sm-6">
+						<select class="form-control"></select>
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Zip Code">
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<input type="checkbox" style="display: none;" checked="true">
+						<span class="checkBox iconfont icon-right" style="float: left;"></span>
+						<span style="float: left;">Save this shipping address as default billing address</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="check_credit">
+				<div class="check_selection">3.Credit Card Information</div>
+				<form class="row form_box">
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Name On Card">
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Card Number">
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Expiration Date:mmyy">
+					</div>
+					<div class="form-group col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Security Code">
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<input type="checkbox" style="display: none;" checked="true">
+						<span class="checkBox iconfont icon-right" style="float: left;"></span>
+						<span style="float: left;">Save this credit card for future orders</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="check_method">
+				<div class="check_selection">4.Shipping Method</div>
+				<form class="row form_box">
+
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn round"></div>
+						<div class="roundBtn_text">7-10 business days &nbsp;&nbsp;&nbsp;&nbsp;$3.99</div>
+						<div class="clearBoth"></div>
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn"></div>
+						<div class="roundBtn_text">3-5 business days &nbsp;&nbsp;&nbsp;&nbsp;$6.99</div>
+						<div class="clearBoth"></div>
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn"></div>
+						<div class="roundBtn_text">3 business days &nbsp;&nbsp;&nbsp;&nbsp;$9.99</div>
+						<div class="clearBoth"></div>
+					</div>
+					<div class="col-md-12 col-sm-12 checkbox_box">
+						<div class="roundBtn"></div>
+						<div class="roundBtn_text">1-3 business days &nbsp;&nbsp;&nbsp;&nbsp;$12.99</div>
+						<div class="clearBoth"></div>
+					</div>
+					<div class="col-md-12 col-sm-12 method_remind">"Estimated production time for customized phone cases is 2-5 business days"</div>
+				</form>
+			</div>
+
+			<div class="check_review">
+				<div class="check_selection">5.Review Your Order</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 cart_left_content">
+						<div class="col-md-12 col-sm-12 col-xs-12 cart_list">
+							<div class="col-md-3 col-sm-3 col-xs-4">
+								<div class="cart_product"></div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 cart_message">
+								<div>Product Name</div>
+								<div>The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes</div>
+							</div>
+							<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 cart_price">
+								<div>$39.99</div>
+								<div class="cart_num"><input type="number" min="1" class="cart_input" value="1"/><div>QT</div></div>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 cart_list">
+							<div class="col-md-3 col-sm-3 col-xs-4">
+								<div class="cart_product"></div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 cart_message">
+								<div>Product Name</div>
+								<div>The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes</div>
+							</div>
+							<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 cart_price">
+								<div>$39.99</div>
+								<div class="cart_num"><input type="number" min="1" class="cart_input" value="1"/><div>QT</div></div>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 cart_list">
+							<div class="col-md-3 col-sm-3 col-xs-4">
+								<div class="cart_product"></div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 cart_message">
+								<div>Product Name</div>
+								<div>The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes</div>
+							</div>
+							<div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 cart_price">
+								<div>$39.99</div>
+								<div class="cart_num"><input type="number" min="1" class="cart_input" value="1" /><div>QT</div></div>
+							</div>
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 check_apply">
+							<div>Coupon Code:</div>
+							<input type="text" />
+							<button class="btn">APPLY</button>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12"><div class="cart_right_line"></div></div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 check_price_box">
+						<div class="col-md-8 col-sm-8 col-xs-8">Subtotal</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">$119.55</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 check_price_box">
+						<div class="col-md-8 col-sm-8 col-xs-8">Discounts(10%):</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">$119.55</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 check_price_box">
+						<div class="col-md-8 col-sm-8 col-xs-8">Tax</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">$119.55</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 check_price_box">
+						<div class="col-md-8 col-sm-8 col-xs-8">Shipping & Handlings(7-10 Business Days)</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">$119.55</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12"><div class="cart_right_line"></div></div>
+					<div class="col-md-12 col-sm-12 col-xs-12 check_price_box cart_price_total">
+						<div class="col-md-8 col-sm-8 col-xs-8">Total</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">$119.55</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="check_submit_box">
+				<div class="check_submit">PLACE OPEN</div>
+				<div class="col-md-12 col-sm-12 checkbox_box">
+					<input type="checkbox" style="display: none;" checked="true">
+					<span class="checkBox iconfont icon-right" style="float: left;"></span>
+					<span id="last_text" style="float: left;">I agree to the Privacy Policy and Terms & Conditions of this website.</span>
+				</div>
+			</div>
+		</div>
+
+
+		<!--页脚-->
+		<script src="js/footer.js" charset="utf-8"></script>
+
+
+	</body>
+	<script src="tools/bootstrap/js/jquery-3.1.0.min.js"></script>
+	<script src="tools/bootstrap/js/bootstrap.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".checkBox").on("click",function(){
+				if($(this).hasClass("icon-right")){
+					$(this).removeClass("icon-right");
+					$(this).siblings("input[type=checkbox]").attr("checked",false);
+				}else{
+					$(this).addClass("icon-right");
+					$(this).siblings("input[type=checkbox]").attr("checked",true);
+				}
+			});
+			$(".roundBtn").on("click",function(){
+				if($(this).hasClass("round")){
+					$(this).addClass("round");
+				}else{
+					$(this).parents(".form_box").find(".roundBtn").removeClass("round");
+					$(this).addClass("round");
+				}
+			})
+		})
+	</script>
+</html>

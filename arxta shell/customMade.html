@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="tools/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/show.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<style>
+			body{
+				background-color: #fff;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!--导航条-->
+		<script src="js/navBar.js" charset="utf-8"></script>
+		<!--介绍文本-->
+		<div class="show_text_box">
+			<div class="show_text_head">SHOP BY DEVICE</div>
+			<div class="show_text_body container">The Great Sphinx in Giza is known for its lack of a nose. As legend has it, Napoleon's army destroyed this body part during a battle with the Turks in 1798. However, Danish traveler Frederic Norden's notes, in which he portrayed the statue without a nose in 1737, disprove the Napoleon story.
+				 The story of the artist allegedly cutting off his ear and sending it to his beloved is quite exaggerated. In reality, the whole thing happened after a conflict with his friend, Paul Gauguin, during which Van Gogh attacked him with a razor. In a fit of remorse (or, according to some researchers, madness), Vincent cut off a lobe of his ear that same night.
+			</div>
+		</div>
+
+		<!--定制选项-->
+		<div class="container custom_content">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<a href="chooseType.html">
+						<div class="custom_box">
+							<div class="custom_img" style="background-image: url(images/phone_example.png);"></div>
+							<div class="custom_text">PHONE CASE</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<a href="chooseType.html">
+						<div class="custom_box">
+							<div class="custom_img" style="background-image: url(images/ipad_model.png);"></div>
+							<div class="custom_text">TSBLET CASE</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!--页脚-->
+		<script src="js/footer.js" charset="utf-8"></script>
+	</body>
+	<script src="tools/bootstrap/js/jquery-3.1.0.min.js"></script>
+	<script src="tools/bootstrap/js/bootstrap.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".custom_box").on("mouseover",function(){
+				$(".custom_box").css("background-color","#f4f4f4");
+				$(this).css("background-color","#3ad9ff");
+			})
+		})
+	</script>
+</html>

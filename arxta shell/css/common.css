@@ -1,0 +1,152 @@
+.clearBoth{
+	clear: both;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.extra{
+	width: 100%;
+	height: 1px;
+}
+@media (max-width: 768px) {
+  .logo_box{
+  	width: 150px;
+  }
+}
+.logo_box{
+	/*width: 150px;*/
+	margin-right: 20px;
+	padding: 14px 0 15px 0;
+	float: left;
+}
+.logo_box img{
+	width: 100%;
+}
+#navbar{
+	border-bottom: 1px solid #555;
+}
+.navbar-default{
+	background-color: #3ad9ff;
+    border-color: #3ad9ff;
+}
+.navbar li a{
+	font-weight:500;
+}
+.nav_search_box{
+	margin-top: 10px;
+}
+.head_img{
+	float: left;
+	cursor: pointer;
+}
+.register{
+	float: left;
+	font-size: 16px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.cart_badge{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #f4f4f4;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -6px;
+	right: -10px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+}
+.head_img img{
+	width: 30px;
+	border-radius:50% ;
+	margin-top: 10px;
+}
+#imgId .item{
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+@media (max-width:768px ) {
+	#imgId .item{
+		height: 200px;
+	}
+}
+
+.footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	background-color: #07172c;
+	padding: 30px 0 20px 0;
+	box-sizing: content-box;
+}
+.footer_logo img{
+	width: 100%;
+}
+#footer_li a{
+	color: #f4f4f4;
+}
+.footer_active a{
+	font-weight: bold;
+}
+.footer_search_box{
+	margin-top: 20px;
+	position: relative;
+}
+.search_icon{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+.rele_text{
+	font-size: 17px;
+	color:#F4F4F4 ;
+	line-height: 40px;
+}
+.rele_icon{
+	float: left;
+	margin: 0 5px;
+}
+.rele_icon img{
+	width: 40px;
+}
+.rele_box{
+	margin-top: 20px;
+}
+.footer_bottom{
+	margin-top: 60px;
+	color: #3ad9ff;
+}
+@media (max-width:768px ) {
+	.footer{
+		height: 300px;
+	}
+	.footer_logo{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.footer_logo img{
+		width: 100%;
+	}
+	.footer .navbar-nav > li{
+		float: left;
+	}
+	.rele_text{
+		font-size: 14px;
+	}
+	.rele_icon img{
+		width: 30px;
+	}
+	.footer_bottom{
+		margin-top: 10px;
+	}
+}
+a{
+	color: inherit;
+}
+
